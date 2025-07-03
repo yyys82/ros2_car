@@ -1,0 +1,184 @@
+[0.110s] Invoking command in '/home/sunrise/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description /usr/bin/cmake --build /home/sunrise/ros2_ws/build/micro_ros_msgs -- -j8 -l8
+[0.342s] [  2%] Built target micro_ros_msgs__cpp
+[0.349s] [ 12%] Built target micro_ros_msgs__rosidl_generator_c
+[0.392s] [ 12%] Built target ament_cmake_python_copy_micro_ros_msgs
+[0.503s] [ 23%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[0.508s] [ 34%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[0.509s] [ 55%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[0.510s] [ 55%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[0.532s] [ 65%] Built target micro_ros_msgs__rosidl_typesupport_c
+[0.541s] [ 76%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[0.635s] [ 76%] Built target micro_ros_msgs
+[0.732s] [ 78%] Built target micro_ros_msgs__py
+[0.834s] [ 87%] Built target micro_ros_msgs__rosidl_generator_py
+[1.085s] [ 95%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.085s] [ 95%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[1.086s] [100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[1.951s] running egg_info
+[1.955s] writing micro_ros_msgs.egg-info/PKG-INFO
+[1.957s] writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt
+[1.957s] writing top-level names to micro_ros_msgs.egg-info/top_level.txt
+[1.970s] reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[1.974s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[2.173s] [100%] Built target ament_cmake_python_build_micro_ros_msgs_egg
+[2.222s] Invoked command in '/home/sunrise/ros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description /usr/bin/cmake --build /home/sunrise/ros2_ws/build/micro_ros_msgs -- -j8 -l8
+[2.228s] Invoking command in '/home/sunrise/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description /usr/bin/cmake --install /home/sunrise/ros2_ws/build/micro_ros_msgs
+[2.263s] -- Install configuration: ""
+[2.264s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[2.265s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[2.266s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[2.266s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[2.267s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h
+[2.268s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h
+[2.268s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h
+[2.269s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h
+[2.270s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h
+[2.270s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c
+[2.271s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h
+[2.271s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h
+[2.272s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h
+[2.272s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h
+[2.273s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c
+[2.274s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c
+[2.275s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h
+[2.275s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h
+[2.275s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h
+[2.276s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.277s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[2.277s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[2.278s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[2.278s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[2.279s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[2.279s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[2.280s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[2.280s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[2.281s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[2.281s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.282s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[2.283s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[2.283s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[2.284s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[2.284s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[2.285s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[2.285s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[2.286s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c
+[2.286s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c
+[2.287s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c
+[2.287s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.287s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[2.288s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[2.288s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[2.289s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[2.289s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp
+[2.290s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[2.290s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp
+[2.291s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.hpp
+[2.291s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp
+[2.291s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp
+[2.292s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp
+[2.292s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp
+[2.293s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.hpp
+[2.293s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp
+[2.294s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp
+[2.294s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp
+[2.294s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.hpp
+[2.295s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp
+[2.295s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp
+[2.296s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.296s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp
+[2.297s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[2.297s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[2.298s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.298s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[2.298s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[2.299s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps
+[2.299s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[2.300s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[2.300s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.301s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[2.301s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[2.301s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[2.302s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp
+[2.302s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[2.303s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[2.303s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp
+[2.304s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[2.304s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp
+[2.304s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[2.305s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[2.305s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[2.306s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[2.306s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info
+[2.307s] -- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/PKG-INFO
+[2.307s] -- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/SOURCES.txt
+[2.308s] -- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/top_level.txt
+[2.309s] -- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/dependency_links.txt
+[2.309s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs
+[2.309s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.310s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.310s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c
+[2.311s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so
+[2.311s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.312s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py
+[2.312s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.313s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.313s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg
+[2.313s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c
+[2.314s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py
+[2.314s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py
+[2.315s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c
+[2.315s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py
+[2.316s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py
+[2.316s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c
+[2.454s] Listing '/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...
+[2.455s] Listing '/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...
+[2.492s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.493s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.494s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.495s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so
+[2.496s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[2.496s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[2.497s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[2.498s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[2.498s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[2.499s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[2.499s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[2.500s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[2.501s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[2.501s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[2.502s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[2.502s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[2.503s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[2.503s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[2.504s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[2.505s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[2.505s] -- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[2.506s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[2.506s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake
+[2.507s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.507s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.508s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.509s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.509s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.510s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[2.510s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.511s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake
+[2.511s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.511s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.512s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.512s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.513s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[2.513s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.514s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake
+[2.515s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.517s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[2.520s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.521s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.522s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.522s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.523s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.524s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.524s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[2.525s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[2.526s] -- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[2.527s] Invoked command in '/home/sunrise/ros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description /usr/bin/cmake --install /home/sunrise/ros2_ws/build/micro_ros_msgs

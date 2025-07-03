@@ -1,0 +1,23 @@
+[0.085s] Invoking command in '/home/sunrise/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/ros2_ws/build/micro_ros_msgs -- -j8 -l8
+[0.310s] [  2%] Built target micro_ros_msgs__cpp
+[0.316s] [ 12%] Built target micro_ros_msgs__rosidl_generator_c
+[0.358s] [ 12%] Built target ament_cmake_python_copy_micro_ros_msgs
+[0.440s] [ 23%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[0.446s] [ 34%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[0.447s] [ 48%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[0.448s] [ 55%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[0.449s] [ 65%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[0.451s] [ 76%] Built target micro_ros_msgs__rosidl_typesupport_c
+[0.542s] [ 76%] Built target micro_ros_msgs
+[0.638s] [ 78%] Built target micro_ros_msgs__py
+[0.735s] [ 87%] Built target micro_ros_msgs__rosidl_generator_py
+[0.832s] [ 97%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[0.834s] [ 97%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.834s] [100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[1.865s] running egg_info
+[1.869s] writing micro_ros_msgs.egg-info/PKG-INFO
+[1.870s] writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt
+[1.871s] writing top-level names to micro_ros_msgs.egg-info/top_level.txt
+[1.884s] reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[1.887s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[2.094s] [100%] Built target ament_cmake_python_build_micro_ros_msgs_egg

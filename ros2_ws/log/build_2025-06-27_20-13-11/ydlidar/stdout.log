@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target ydlidar_client[0m
+[35m[1mConsolidate compiler generated dependencies of target ydlidar_node[0m
+[ 18%] Built target ydlidar_client
+[100%] Built target ydlidar_node
+-- Install configuration: ""
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_node
+-- Set runtime path of "/home/sunrise/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_node" to ""
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_client
+-- Set runtime path of "/home/sunrise/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_client" to ""
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/launch
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/launch/ydlidar_launch.py
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/launch/ydlidar.py
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/params
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/params/ydlidar.yaml
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/startup
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/startup/initenv.sh
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/environment/path.sh
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/environment/path.dsv
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/local_setup.bash
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/local_setup.sh
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/local_setup.zsh
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/local_setup.dsv
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/package.dsv
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ament_index/resource_index/packages/ydlidar
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/package.xml

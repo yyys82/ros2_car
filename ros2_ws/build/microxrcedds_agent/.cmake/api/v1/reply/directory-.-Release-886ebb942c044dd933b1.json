@@ -1,0 +1,208 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 394,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 410,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 421,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 430,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 452,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 460,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 492,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 514,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 514,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libmicroxrcedds_agent.so.2.4.2",
+				"libmicroxrcedds_agent.so.2.4"
+			],
+			"targetId" : "microxrcedds_agent::@6890427a1f51a3e7e1df",
+			"targetIndex" : 1,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libmicroxrcedds_agent.so"
+			],
+			"targetId" : "microxrcedds_agent::@6890427a1f51a3e7e1df",
+			"targetIndex" : 1,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/uxr/agent",
+			"paths" : 
+			[
+				{
+					"from" : "include/uxr/agent",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "share/microxrcedds_agent/cmake",
+			"exportName" : "microxrcedds_agentTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "microxrcedds_agent::@6890427a1f51a3e7e1df",
+					"index" : 1
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"MicroXRCEAgent"
+			],
+			"targetId" : "MicroXRCEAgent::@6890427a1f51a3e7e1df",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include/uxr/agent",
+			"paths" : 
+			[
+				"/home/sunrise/ros2_ws/build/microxrcedds_agent/include/uxr/agent/config.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "licenses",
+			"destination" : "share/microxrcedds_agent",
+			"paths" : 
+			[
+				"LICENSE"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "share/microxrcedds_agent/cmake",
+			"paths" : 
+			[
+				"/home/sunrise/ros2_ws/build/microxrcedds_agent/cmake/config/microxrcedds_agentConfig.cmake",
+				"/home/sunrise/ros2_ws/build/microxrcedds_agent/cmake/config/microxrcedds_agentConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "microcdr-2.0.1",
+			"destination" : "/home/sunrise/ros2_ws/install/microxrcedds_agent",
+			"paths" : 
+			[
+				{
+					"from" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/temp_install/microcdr-2.0.1",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "microxrcedds_client-2.4.2",
+			"destination" : "/home/sunrise/ros2_ws/install/microxrcedds_agent",
+			"paths" : 
+			[
+				{
+					"from" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

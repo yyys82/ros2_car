@@ -1,0 +1,841 @@
+[0.000000] (-) TimerEvent: {}
+[0.002214] (fishbot_bringup) JobQueued: {'identifier': 'fishbot_bringup', 'dependencies': OrderedDict()}
+[0.002932] (fishbot_description) JobQueued: {'identifier': 'fishbot_description', 'dependencies': OrderedDict()}
+[0.003608] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.003834] (microxrcedds_agent) JobQueued: {'identifier': 'microxrcedds_agent', 'dependencies': OrderedDict()}
+[0.004205] (ydlidar) JobQueued: {'identifier': 'ydlidar', 'dependencies': OrderedDict()}
+[0.004397] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/sunrise/ros2_ws/install/micro_ros_msgs')])}
+[0.004537] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.034703] (fishbot_bringup) JobStarted: {'identifier': 'fishbot_bringup'}
+[0.055299] (fishbot_description) JobStarted: {'identifier': 'fishbot_description'}
+[0.086230] (microxrcedds_agent) JobStarted: {'identifier': 'microxrcedds_agent'}
+[0.098598] (-) TimerEvent: {}
+[0.107540] (ydlidar) JobStarted: {'identifier': 'ydlidar'}
+[0.138527] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.141945] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[0.145626] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/ros2_ws/build/micro_ros_msgs', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/ros2_ws/build/micro_ros_msgs', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.137.1 63370 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/sunrise/ros2_ws/install/microxrcedds_agent/lib:/home/sunrise/ros2_ws/install/micro_ros_agent/lib:/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/ros2_ws/install/microxrcedds_agent/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/fishbot_description'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/ros2_ws/build/micro_ros_msgs'), ('SSH_CONNECTION', '192.168.137.1 63370 192.168.137.42 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/microxrcedds_agent:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description')]), 'shell': False}
+[0.156232] (fishbot_bringup) JobProgress: {'identifier': 'fishbot_bringup', 'progress': 'cmake'}
+[0.159637] (fishbot_bringup) JobProgress: {'identifier': 'fishbot_bringup', 'progress': 'build'}
+[0.161191] (fishbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/ros2_ws/build/fishbot_bringup', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/ros2_ws/build/fishbot_bringup', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.137.1 63370 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/sunrise/ros2_ws/install/microxrcedds_agent/lib:/home/sunrise/ros2_ws/install/micro_ros_agent/lib:/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/ros2_ws/install/microxrcedds_agent/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/fishbot_description'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/ros2_ws/build/fishbot_bringup'), ('SSH_CONNECTION', '192.168.137.1 63370 192.168.137.42 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/microxrcedds_agent:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description')]), 'shell': False}
+[0.198766] (-) TimerEvent: {}
+[0.299760] (-) TimerEvent: {}
+[0.401394] (-) TimerEvent: {}
+[0.503335] (-) TimerEvent: {}
+[0.604416] (-) TimerEvent: {}
+[0.705424] (-) TimerEvent: {}
+[0.806442] (-) TimerEvent: {}
+[0.907389] (-) TimerEvent: {}
+[1.009012] (-) TimerEvent: {}
+[1.109968] (-) TimerEvent: {}
+[1.210850] (-) TimerEvent: {}
+[1.311758] (-) TimerEvent: {}
+[1.412702] (-) TimerEvent: {}
+[1.513586] (-) TimerEvent: {}
+[1.614466] (-) TimerEvent: {}
+[1.715376] (-) TimerEvent: {}
+[1.816291] (-) TimerEvent: {}
+[1.917207] (-) TimerEvent: {}
+[1.985686] (microxrcedds_agent) JobProgress: {'identifier': 'microxrcedds_agent', 'progress': 'cmake'}
+[1.990361] (microxrcedds_agent) JobProgress: {'identifier': 'microxrcedds_agent', 'progress': 'build'}
+[1.991942] (microxrcedds_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/ros2_ws/build/microxrcedds_agent', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/ros2_ws/build/microxrcedds_agent', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.137.1 63370 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/sunrise/ros2_ws/install/microxrcedds_agent/lib:/home/sunrise/ros2_ws/install/micro_ros_agent/lib:/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/ros2_ws/install/microxrcedds_agent/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/fishbot_description'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/ros2_ws/build/microxrcedds_agent'), ('SSH_CONNECTION', '192.168.137.1 63370 192.168.137.42 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/microxrcedds_agent:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs')]), 'shell': False}
+[2.001350] (ydlidar) JobProgress: {'identifier': 'ydlidar', 'progress': 'cmake'}
+[2.005368] (ydlidar) JobProgress: {'identifier': 'ydlidar', 'progress': 'build'}
+[2.007120] (ydlidar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/ros2_ws/build/ydlidar', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/ros2_ws/build/ydlidar', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.137.1 63370 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/sunrise/ros2_ws/install/microxrcedds_agent/lib:/home/sunrise/ros2_ws/install/micro_ros_agent/lib:/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/ros2_ws/install/microxrcedds_agent/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/fishbot_description'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/ros2_ws/build/ydlidar'), ('SSH_CONNECTION', '192.168.137.1 63370 192.168.137.42 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/microxrcedds_agent:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description')]), 'shell': False}
+[2.021134] (-) TimerEvent: {}
+[2.022906] (micro_ros_msgs) StdoutLine: {'line': b'[  2%] Built target micro_ros_msgs__cpp\n'}
+[2.023986] (micro_ros_msgs) StdoutLine: {'line': b'[ 12%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[2.030121] (micro_ros_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_micro_ros_msgs\n'}
+[2.033058] (micro_ros_msgs) StdoutLine: {'line': b'[ 25%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[2.036151] (micro_ros_msgs) StdoutLine: {'line': b'[ 34%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[2.039467] (micro_ros_msgs) StdoutLine: {'line': b'[ 44%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.040505] (micro_ros_msgs) StdoutLine: {'line': b'[ 55%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[2.045034] (micro_ros_msgs) StdoutLine: {'line': b'[ 65%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.047222] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.050298] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs\n'}
+[2.051178] (micro_ros_msgs) StdoutLine: {'line': b'[ 78%] Built target micro_ros_msgs__py\n'}
+[2.051902] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] Built target micro_ros_msgs__rosidl_generator_py\n'}
+[2.052596] (micro_ros_msgs) StdoutLine: {'line': b'[ 91%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.053275] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.053941] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext\n'}
+[2.054640] (fishbot_bringup) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fishbot_bringup\x1b[0m\n'}
+[2.055455] (fishbot_bringup) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/fishbot_bringup.dir/src/fishbot_bringup.cpp.o\x1b[0m\n'}
+[2.056137] (micro_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.056774] (micro_ros_msgs) StdoutLine: {'line': b'writing micro_ros_msgs.egg-info/PKG-INFO\n'}
+[2.057459] (micro_ros_msgs) StdoutLine: {'line': b'writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt\n'}
+[2.058204] (micro_ros_msgs) StdoutLine: {'line': b'writing top-level names to micro_ros_msgs.egg-info/top_level.txt\n'}
+[2.058908] (micro_ros_msgs) StdoutLine: {'line': b"reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[2.059590] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[2.121389] (-) TimerEvent: {}
+[2.222517] (-) TimerEvent: {}
+[2.275674] (ydlidar) StdoutLine: {'line': b'[ 18%] Built target ydlidar_client\n'}
+[2.291082] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_micro_ros_msgs_egg\n'}
+[2.300401] (ydlidar) StdoutLine: {'line': b'[100%] Built target ydlidar_node\n'}
+[2.322693] (-) TimerEvent: {}
+[2.348520] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[2.352011] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[2.393407] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/ros2_ws/build/micro_ros_msgs'], 'cwd': '/home/sunrise/ros2_ws/build/micro_ros_msgs', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.137.1 63370 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/sunrise/ros2_ws/install/microxrcedds_agent/lib:/home/sunrise/ros2_ws/install/micro_ros_agent/lib:/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/ros2_ws/install/microxrcedds_agent/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/fishbot_description'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/ros2_ws/build/micro_ros_msgs'), ('SSH_CONNECTION', '192.168.137.1 63370 192.168.137.42 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/microxrcedds_agent:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description')]), 'shell': False}
+[2.402007] (ydlidar) CommandEnded: {'returncode': 0}
+[2.405181] (ydlidar) JobProgress: {'identifier': 'ydlidar', 'progress': 'install'}
+[2.406715] (ydlidar) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/ros2_ws/build/ydlidar'], 'cwd': '/home/sunrise/ros2_ws/build/ydlidar', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.137.1 63370 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/sunrise/ros2_ws/install/microxrcedds_agent/lib:/home/sunrise/ros2_ws/install/micro_ros_agent/lib:/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/ros2_ws/install/microxrcedds_agent/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/fishbot_description'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/ros2_ws/build/ydlidar'), ('SSH_CONNECTION', '192.168.137.1 63370 192.168.137.42 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/microxrcedds_agent:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description')]), 'shell': False}
+[2.415299] (microxrcedds_agent) StdoutLine: {'line': b'[ 96%] Built target microxrcedds_agent\n'}
+[2.422926] (-) TimerEvent: {}
+[2.434368] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.435707] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[2.436955] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[2.437825] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[2.438601] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[2.439370] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[2.440288] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[2.441003] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[2.441766] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[2.442786] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[2.443512] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c\n'}
+[2.444142] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[2.445054] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[2.446663] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[2.448127] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[2.449125] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c\n'}
+[2.450263] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c\n'}
+[2.451786] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h\n'}
+[2.452601] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h\n'}
+[2.453748] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h\n'}
+[2.454608] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.455358] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[2.456175] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[2.456868] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[2.458125] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[2.459244] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[2.460387] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[2.462049] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[2.463585] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[2.466555] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[2.467715] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.469099] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.470359] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[2.471146] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[2.472387] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[2.473620] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[2.474738] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[2.476221] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[2.477234] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[2.478499] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[2.480288] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[2.481490] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.483469] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.484475] (ydlidar) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.485608] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[2.486797] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_node\n'}
+[2.487588] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[2.488772] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[2.490002] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp\n'}
+[2.491151] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[2.493053] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[2.493827] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.hpp\n'}
+[2.494994] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[2.495822] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[2.496986] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[2.498928] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[2.503441] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_client\n'}
+[2.504549] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.hpp\n'}
+[2.505409] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[2.506123] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[2.506987] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[2.508978] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.hpp\n'}
+[2.510146] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[2.511093] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp\n'}
+[2.512350] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.513773] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp\n'}
+[2.514559] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/launch\n'}
+[2.515278] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/launch/ydlidar_launch.py\n'}
+[2.515959] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/launch/ydlidar.py\n'}
+[2.516651] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/params\n'}
+[2.517383] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[2.518258] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[2.519004] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.519876] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[2.520656] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/params/ydlidar.yaml\n'}
+[2.524096] (-) TimerEvent: {}
+[2.526308] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/startup\n'}
+[2.527287] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/startup/initenv.sh\n'}
+[2.528227] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.530032] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps\n'}
+[2.532033] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.532817] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.533638] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.535461] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar\n'}
+[2.537781] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[2.538751] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar\n'}
+[2.541574] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh\n'}
+[2.543654] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[2.546704] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[2.551512] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv\n'}
+[2.557289] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/environment/path.sh\n'}
+[2.558417] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp\n'}
+[2.559261] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/environment/path.dsv\n'}
+[2.560993] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/local_setup.bash\n'}
+[2.563763] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.564655] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.565429] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp\n'}
+[2.567058] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.571438] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp\n'}
+[2.572229] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/local_setup.sh\n'}
+[2.572948] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/local_setup.zsh\n'}
+[2.574584] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.575466] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/local_setup.dsv\n'}
+[2.580213] (ydlidar) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/package.dsv\n'}
+[2.581150] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ament_index/resource_index/packages/ydlidar\n'}
+[2.582903] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake\n'}
+[2.587314] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake\n'}
+[2.588366] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[2.590069] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/package.xml\n'}
+[2.590915] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[2.591938] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[2.592861] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info\n'}
+[2.595879] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/PKG-INFO\n'}
+[2.599990] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[2.600870] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/top_level.txt\n'}
+[2.601701] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[2.602610] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs\n'}
+[2.603484] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.604353] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.605217] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[2.606318] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[2.607075] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.608416] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py\n'}
+[2.609202] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.609942] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.610678] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg\n'}
+[2.611304] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[2.611999] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py\n'}
+[2.612686] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py\n'}
+[2.613340] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[2.614109] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py\n'}
+[2.615126] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py\n'}
+[2.618145] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[2.620238] (ydlidar) CommandEnded: {'returncode': 0}
+[2.622379] (microxrcedds_agent) StdoutLine: {'line': b'[100%] Built target MicroXRCEAgent\n'}
+[2.624101] (-) TimerEvent: {}
+[2.655273] (ydlidar) JobEnded: {'identifier': 'ydlidar', 'rc': 0}
+[2.660440] (microxrcedds_agent) CommandEnded: {'returncode': 0}
+[2.662812] (microxrcedds_agent) JobProgress: {'identifier': 'microxrcedds_agent', 'progress': 'install'}
+[2.664184] (microxrcedds_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/ros2_ws/build/microxrcedds_agent'], 'cwd': '/home/sunrise/ros2_ws/build/microxrcedds_agent', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.137.1 63370 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/sunrise/ros2_ws/install/microxrcedds_agent/lib:/home/sunrise/ros2_ws/install/micro_ros_agent/lib:/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/ros2_ws/install/microxrcedds_agent/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/fishbot_description'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/ros2_ws/build/microxrcedds_agent'), ('SSH_CONNECTION', '192.168.137.1 63370 192.168.137.42 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/microxrcedds_agent:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs')]), 'shell': False}
+[2.670349] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...\n"}
+[2.671603] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...\n"}
+[2.702121] (microxrcedds_agent) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[2.703295] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so.2.4.2\n'}
+[2.704070] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so.2.4\n'}
+[2.705124] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so\n'}
+[2.706236] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent\n'}
+[2.707487] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/processor\n'}
+[2.709047] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/processor/Processor.hpp\n'}
+[2.710098] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/AgentInstance.hpp\n'}
+[2.711197] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/datareader\n'}
+[2.712349] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/datareader/DataReader.hpp\n'}
+[2.713542] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/message\n'}
+[2.714691] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/message/Packet.hpp\n'}
+[2.715804] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/message/OutputMessage.hpp\n'}
+[2.716847] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/message/InputMessage.hpp\n'}
+[2.718057] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/subscriber\n'}
+[2.718920] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/subscriber/Subscriber.hpp\n'}
+[2.719716] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/object\n'}
+[2.720361] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/object/XRCEObject.hpp\n'}
+[2.721207] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/logger\n'}
+[2.722236] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/logger/Logger.hpp\n'}
+[2.723576] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/topic\n'}
+[2.724921] (-) TimerEvent: {}
+[2.726177] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/topic/Topic.hpp\n'}
+[2.727728] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/visibility.hpp\n'}
+[2.729143] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/types\n'}
+[2.731876] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/types/Optional.hpp\n'}
+[2.733147] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/types/MessageHeader.hpp\n'}
+[2.734128] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/types/SubMessageHeader.hpp\n'}
+[2.734986] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/types/XRCETypes.hpp\n'}
+[2.735603] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/types/TopicPubSubType.hpp\n'}
+[2.736202] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/publisher\n'}
+[2.736769] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/publisher/Publisher.hpp\n'}
+[2.737300] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/Agent.hpp\n'}
+[2.737854] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/replier\n'}
+[2.738370] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/replier/Replier.hpp\n'}
+[2.739681] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/p2p\n'}
+[2.741167] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/p2p/InternalClientManager.hpp\n'}
+[2.745878] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/p2p/InternalClient.hpp\n'}
+[2.746894] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/reader\n'}
+[2.747512] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/reader/Reader.hpp\n'}
+[2.748352] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/requester\n'}
+[2.749231] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/requester/Requester.hpp\n'}
+[2.750031] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/scheduler\n'}
+[2.750711] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/scheduler/PacketScheduler.hpp\n'}
+[2.751833] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/scheduler/Scheduler.hpp\n'}
+[2.752521] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/datawriter\n'}
+[2.753165] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/datawriter/DataWriter.hpp\n'}
+[2.753704] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport\n'}
+[2.754380] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/custom\n'}
+[2.755026] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/custom/CustomAgent.hpp\n'}
+[2.755674] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial\n'}
+[2.756290] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp\n'}
+[2.756848] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp\n'}
+[2.757382] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp\n'}
+[2.758012] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h\n'}
+[2.758704] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp\n'}
+[2.759354] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp\n'}
+[2.759937] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/discovery\n'}
+[2.760577] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp\n'}
+[2.761218] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp\n'}
+[2.761917] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp\n'}
+[2.762571] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp\n'}
+[2.763168] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp\n'}
+[2.763834] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp\n'}
+[2.764426] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp\n'}
+[2.765078] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp\n'}
+[2.765761] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp\n'}
+[2.766420] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp\n'}
+[2.767141] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/Server.hpp\n'}
+[2.767829] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint\n'}
+[2.768546] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp\n'}
+[2.769238] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp\n'}
+[2.769822] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp\n'}
+[2.770385] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp\n'}
+[2.770990] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp\n'}
+[2.771644] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp\n'}
+[2.772218] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/can\n'}
+[2.772842] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp\n'}
+[2.773435] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/SessionManager.hpp\n'}
+[2.774175] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/TransportRc.hpp\n'}
+[2.774717] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/stream_framing\n'}
+[2.775355] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp\n'}
+[2.776015] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/udp\n'}
+[2.776624] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp\n'}
+[2.777244] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp\n'}
+[2.777828] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp\n'}
+[2.778473] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp\n'}
+[2.779087] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/p2p\n'}
+[2.779702] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp\n'}
+[2.780296] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp\n'}
+[2.780947] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/util\n'}
+[2.781553] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp\n'}
+[2.782180] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp\n'}
+[2.782739] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/Root.hpp\n'}
+[2.783379] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/utils\n'}
+[2.783975] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/utils/Time.hpp\n'}
+[2.784574] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/utils/Color.hpp\n'}
+[2.785200] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/utils/TokenBucket.hpp\n'}
+[2.785786] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/utils/ArgumentParser.hpp\n'}
+[2.786393] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/utils/SharedMutexPriority.hpp\n'}
+[2.787034] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/utils/SeqNum.hpp\n'}
+[2.787614] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/utils/Conversion.hpp\n'}
+[2.788382] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/utils/Functions.hpp\n'}
+[2.789024] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/utils/SharedMutex.hpp\n'}
+[2.789758] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware\n'}
+[2.790349] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fastdds\n'}
+[2.791000] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp\n'}
+[2.791628] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp\n'}
+[2.792314] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/Middleware.hpp\n'}
+[2.792935] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fast\n'}
+[2.793550] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp\n'}
+[2.794095] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fast/FastEntities.hpp\n'}
+[2.794728] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/ced\n'}
+[2.795468] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp\n'}
+[2.796267] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/ced/CedEntities.hpp\n'}
+[2.796907] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/utils\n'}
+[2.797477] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/utils/Callbacks.hpp\n'}
+[2.800306] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/participant\n'}
+[2.801486] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/participant/Participant.hpp\n'}
+[2.803450] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/client\n'}
+[2.804232] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/client/ProxyClient.hpp\n'}
+[2.805740] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/client/session\n'}
+[2.807381] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/client/session/Session.hpp\n'}
+[2.808252] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/client/session/SessionInfo.hpp\n'}
+[2.809644] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/client/session/stream\n'}
+[2.811568] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/client/session/stream/InputStream.hpp\n'}
+[2.812398] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/client/session/stream/OutputStream.hpp\n'}
+[2.813099] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.814541] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake\n'}
+[2.815676] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake\n'}
+[2.816223] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.819174] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/bin/MicroXRCEAgent\n'}
+[2.819849] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/agent/config.hpp\n'}
+[2.821551] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/share/microxrcedds_agent/LICENSE\n'}
+[2.822194] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.822826] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake\n'}
+[2.824220] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake\n'}
+[2.824933] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent\n'}
+[2.826387] (-) TimerEvent: {}
+[2.827150] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include\n'}
+[2.828658] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/ucdr\n'}
+[2.830638] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/ucdr/microcdr.h\n'}
+[2.831401] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/ucdr/visibility.h\n'}
+[2.832134] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[2.833356] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/ucdr/config.h\n'}
+[2.835981] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/lib\n'}
+[2.837106] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/lib/libmicrocdr.so.2.0.1\n'}
+[2.839124] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/lib/libmicrocdr.so\n'}
+[2.839982] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/lib/libmicrocdr.so.2.0\n'}
+[2.841504] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/share\n'}
+[2.843180] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/share/microcdr\n'}
+[2.844039] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/share/microcdr/cmake\n'}
+[2.845654] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[2.847593] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/share/microcdr/cmake/microcdrConfig.cmake\n'}
+[2.848426] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/share/microcdr/cmake/microcdrTargets.cmake\n'}
+[2.849201] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/share/microcdr/cmake/microcdrConfigVersion.cmake\n'}
+[2.852043] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/share/microcdr/cmake/microcdrTargets-release.cmake\n'}
+[2.854308] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[2.857056] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[2.859391] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[2.860178] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent\n'}
+[2.860924] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include\n'}
+[2.862401] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr\n'}
+[2.864102] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[2.864899] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[2.866481] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[2.868560] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client\n'}
+[2.869282] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[2.873225] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/defines.h\n'}
+[2.876193] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile\n'}
+[2.877008] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/discovery\n'}
+[2.877728] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/discovery/discovery.h\n'}
+[2.879130] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/multithread\n'}
+[2.882148] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/multithread/multithread.h\n'}
+[2.882967] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport\n'}
+[2.884187] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[2.885355] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/custom\n'}
+[2.888080] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[2.888854] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[2.891522] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/custom/custom_transport.h\n'}
+[2.892338] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/serial\n'}
+[2.893065] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[2.895521] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[2.896279] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/serial/serial_transport_posix.h\n'}
+[2.896966] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[2.898314] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[2.899234] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[2.900707] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h\n'}
+[2.904672] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/serial/serial_transport.h\n'}
+[2.906834] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/serial/serial_transport_platform.h\n'}
+[2.907375] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip\n'}
+[2.908141] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp\n'}
+[2.908910] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h\n'}
+[2.909614] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h\n'}
+[2.910672] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h\n'}
+[2.911214] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h\n'}
+[2.911848] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[2.912583] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h\n'}
+[2.913293] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h\n'}
+[2.914010] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp\n'}
+[2.914724] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[2.915456] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport.h\n'}
+[2.916160] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h\n'}
+[2.917238] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h\n'}
+[2.917873] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h\n'}
+[2.918475] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h\n'}
+[2.919011] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h\n'}
+[2.919611] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/ip.h\n'}
+[2.920254] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/can\n'}
+[2.920921] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[2.921760] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/can/can_transport_posix.h\n'}
+[2.922415] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/can/can_transport.h\n'}
+[2.923037] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.923587] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/stream_framing\n'}
+[2.924154] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h\n'}
+[2.924720] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/client.h\n'}
+[2.925328] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/transport.h\n'}
+[2.925937] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core\n'}
+[2.926446] (-) TimerEvent: {}
+[2.927123] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/communication\n'}
+[2.927782] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/communication/communication.h\n'}
+[2.928433] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/type\n'}
+[2.929063] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.929663] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.930242] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.930880] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/type/xrce_types.h\n'}
+[2.931452] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session\n'}
+[2.932014] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/create_entities_bin.h\n'}
+[2.932582] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream\n'}
+[2.933117] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.933657] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/reliable_stream.h\n'}
+[2.934235] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/stream_storage.h\n'}
+[2.934781] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/input_reliable_stream.h\n'}
+[2.935336] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/input_best_effort_stream.h\n'}
+[2.935933] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/stream_id.h\n'}
+[2.936582] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.939523] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.941307] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/output_best_effort_stream.h\n'}
+[2.942029] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/output_reliable_stream.h\n'}
+[2.942664] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/seq_num.h\n'}
+[2.944028] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/create_entities_ref.h\n'}
+[2.944693] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/time_sync.h\n'}
+[2.946267] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.947053] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/session.h\n'}
+[2.948544] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/common_create_entities.h\n'}
+[2.950598] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/object_id.h\n'}
+[2.951550] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/session_info.h\n'}
+[2.953052] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/read_access.h\n'}
+[2.954308] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/create_entities_xml.h\n'}
+[2.957351] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/write_access.h\n'}
+[2.959335] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/visibility.h\n'}
+[2.960473] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/config.h\n'}
+[2.962133] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/util\n'}
+[2.963934] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.964828] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.966491] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.968689] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.969537] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/util/time.h\n'}
+[2.971294] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/include/uxr/client/util/ping.h\n'}
+[2.975333] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/lib\n'}
+[2.978936] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/lib/libmicroxrcedds_client.so\n'}
+[2.981414] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/lib/libmicroxrcedds_client.so.2.4.2\n'}
+[2.982380] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/lib/libmicroxrcedds_client.so.2.4\n'}
+[2.984072] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/share\n'}
+[2.986595] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/share/microxrcedds_client\n'}
+[2.987445] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/share/microxrcedds_client/cmake\n'}
+[2.989036] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake\n'}
+[2.991305] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake\n'}
+[2.992284] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake\n'}
+[2.993931] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/microxrcedds_agent/share/microxrcedds_client/cmake/microxrcedds_clientTargets-release.cmake\n'}
+[2.995814] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.996736] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.997570] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake\n'}
+[2.999190] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.001016] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.001921] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.003421] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.004229] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.005221] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.005875] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.007065] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.009950] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[3.014046] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[3.014787] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[3.015664] (microxrcedds_agent) CommandEnded: {'returncode': 0}
+[3.017489] (microxrcedds_agent) JobEnded: {'identifier': 'microxrcedds_agent', 'rc': 0}
+[3.020438] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[3.026675] (-) TimerEvent: {}
+[3.074121] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[3.079933] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[3.112782] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[3.116118] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[3.117580] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/ros2_ws/build/micro_ros_agent', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/ros2_ws/build/micro_ros_agent', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.137.1 63370 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/sunrise/ros2_ws/install/microxrcedds_agent/lib:/home/sunrise/ros2_ws/install/micro_ros_agent/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/ros2_ws/install/microxrcedds_agent/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/fishbot_description'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/ros2_ws/build/micro_ros_agent'), ('SSH_CONNECTION', '192.168.137.1 63370 192.168.137.42 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/microxrcedds_agent:/home/sunrise/ros2_ws/install/micro_ros_agent:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description')]), 'shell': False}
+[3.126820] (-) TimerEvent: {}
+[3.227725] (-) TimerEvent: {}
+[3.328649] (-) TimerEvent: {}
+[3.377947] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[3.426622] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[3.428819] (-) TimerEvent: {}
+[3.430422] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[3.431765] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/ros2_ws/build/micro_ros_agent'], 'cwd': '/home/sunrise/ros2_ws/build/micro_ros_agent', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.137.1 63370 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/sunrise/ros2_ws/install/microxrcedds_agent/lib:/home/sunrise/ros2_ws/install/micro_ros_agent/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/ros2_ws/install/microxrcedds_agent/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/fishbot_description'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/ros2_ws/build/micro_ros_agent'), ('SSH_CONNECTION', '192.168.137.1 63370 192.168.137.42 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/microxrcedds_agent:/home/sunrise/ros2_ws/install/micro_ros_agent:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description')]), 'shell': False}
+[3.467331] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.468415] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[3.469261] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[3.470035] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[3.470620] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[3.471471] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[3.472048] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[3.472692] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[3.473394] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[3.473971] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[3.474507] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[3.475018] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[3.475504] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[3.475974] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.476443] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[3.476965] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[3.477442] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[3.478034] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[3.478559] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch\n'}
+[3.479554] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[3.482142] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[3.530033] (-) TimerEvent: {}
+[3.596573] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[3.630210] (-) TimerEvent: {}
+[3.731044] (-) TimerEvent: {}
+[3.831883] (-) TimerEvent: {}
+[3.932735] (-) TimerEvent: {}
+[4.033606] (-) TimerEvent: {}
+[4.134480] (-) TimerEvent: {}
+[4.235347] (-) TimerEvent: {}
+[4.336284] (-) TimerEvent: {}
+[4.437216] (-) TimerEvent: {}
+[4.443960] (fishbot_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/fishbot_description', 'build', '--build-base', '/home/sunrise/ros2_ws/build/fishbot_description/build', 'install', '--record', '/home/sunrise/ros2_ws/build/fishbot_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sunrise/ros2_ws/src/fishbot_description', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'sunrise', 'SSH_CLIENT': '192.168.137.1 63370 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/sunrise/ros2_ws/install/microxrcedds_agent/lib:/home/sunrise/ros2_ws/install/micro_ros_agent/lib:/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:', 'MOTD_SHOWN': 'pam', 'HOME': '/home/sunrise', 'OLDPWD': '/home/sunrise/ros2_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/sunrise/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sunrise', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sunrise/ros2_ws/install/microxrcedds_agent/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble:/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/fishbot_description', 'SHELL': '/bin/bash', 'PWD': '/home/sunrise/ros2_ws/build/fishbot_description', 'SSH_CONNECTION': '192.168.137.1 63370 192.168.137.42 22', 'PYTHONPATH': '/home/sunrise/ros2_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/microxrcedds_agent:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs'}, 'shell': False}
+[4.537372] (-) TimerEvent: {}
+[4.638313] (-) TimerEvent: {}
+[4.739148] (-) TimerEvent: {}
+[4.839989] (-) TimerEvent: {}
+[4.940829] (-) TimerEvent: {}
+[5.041651] (-) TimerEvent: {}
+[5.142466] (-) TimerEvent: {}
+[5.243287] (-) TimerEvent: {}
+[5.344128] (-) TimerEvent: {}
+[5.445012] (-) TimerEvent: {}
+[5.545859] (-) TimerEvent: {}
+[5.646682] (-) TimerEvent: {}
+[5.747523] (-) TimerEvent: {}
+[5.848433] (-) TimerEvent: {}
+[5.949247] (-) TimerEvent: {}
+[5.961191] (fishbot_description) StdoutLine: {'line': b'running egg_info\n'}
+[5.965505] (fishbot_description) StdoutLine: {'line': b'writing ../../build/fishbot_description/fishbot_description.egg-info/PKG-INFO\n'}
+[5.966756] (fishbot_description) StdoutLine: {'line': b'writing dependency_links to ../../build/fishbot_description/fishbot_description.egg-info/dependency_links.txt\n'}
+[5.967737] (fishbot_description) StdoutLine: {'line': b'writing entry points to ../../build/fishbot_description/fishbot_description.egg-info/entry_points.txt\n'}
+[5.968494] (fishbot_description) StdoutLine: {'line': b'writing requirements to ../../build/fishbot_description/fishbot_description.egg-info/requires.txt\n'}
+[5.969122] (fishbot_description) StdoutLine: {'line': b'writing top-level names to ../../build/fishbot_description/fishbot_description.egg-info/top_level.txt\n'}
+[5.979292] (fishbot_description) StdoutLine: {'line': b"reading manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'\n"}
+[5.985886] (fishbot_description) StdoutLine: {'line': b"writing manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'\n"}
+[5.986776] (fishbot_description) StdoutLine: {'line': b'running build\n'}
+[5.987310] (fishbot_description) StdoutLine: {'line': b'running build_py\n'}
+[5.988332] (fishbot_description) StdoutLine: {'line': b'running install\n'}
+[5.990195] (fishbot_description) StdoutLine: {'line': b'running install_lib\n'}
+[5.996505] (fishbot_description) StdoutLine: {'line': b'running install_data\n'}
+[5.998292] (fishbot_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.008235] (fishbot_description) StdoutLine: {'line': b"removing '/home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.009814] (fishbot_description) StdoutLine: {'line': b'Copying ../../build/fishbot_description/fishbot_description.egg-info to /home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info\n'}
+[6.014068] (fishbot_description) StdoutLine: {'line': b'running install_scripts\n'}
+[6.049451] (-) TimerEvent: {}
+[6.137153] (fishbot_description) StdoutLine: {'line': b'Installing rotate_wheel script to /home/sunrise/ros2_ws/install/fishbot_description/lib/fishbot_description\n'}
+[6.139150] (fishbot_description) StdoutLine: {'line': b"writing list of installed files to '/home/sunrise/ros2_ws/build/fishbot_description/install.log'\n"}
+[6.149658] (-) TimerEvent: {}
+[6.250591] (-) TimerEvent: {}
+[6.351544] (-) TimerEvent: {}
+[6.356109] (fishbot_description) CommandEnded: {'returncode': 0}
+[6.394531] (fishbot_description) JobEnded: {'identifier': 'fishbot_description', 'rc': 0}
+[6.451727] (-) TimerEvent: {}
+[6.552593] (-) TimerEvent: {}
+[6.653470] (-) TimerEvent: {}
+[6.754341] (-) TimerEvent: {}
+[6.855185] (-) TimerEvent: {}
+[6.956045] (-) TimerEvent: {}
+[7.056906] (-) TimerEvent: {}
+[7.157824] (-) TimerEvent: {}
+[7.258681] (-) TimerEvent: {}
+[7.359571] (-) TimerEvent: {}
+[7.460438] (-) TimerEvent: {}
+[7.561304] (-) TimerEvent: {}
+[7.662196] (-) TimerEvent: {}
+[7.763065] (-) TimerEvent: {}
+[7.863919] (-) TimerEvent: {}
+[7.964780] (-) TimerEvent: {}
+[8.065627] (-) TimerEvent: {}
+[8.166495] (-) TimerEvent: {}
+[8.267451] (-) TimerEvent: {}
+[8.368414] (-) TimerEvent: {}
+[8.469418] (-) TimerEvent: {}
+[8.570296] (-) TimerEvent: {}
+[8.671193] (-) TimerEvent: {}
+[8.772066] (-) TimerEvent: {}
+[8.872937] (-) TimerEvent: {}
+[8.973806] (-) TimerEvent: {}
+[9.074662] (-) TimerEvent: {}
+[9.175543] (-) TimerEvent: {}
+[9.276413] (-) TimerEvent: {}
+[9.377310] (-) TimerEvent: {}
+[9.478290] (-) TimerEvent: {}
+[9.579169] (-) TimerEvent: {}
+[9.680041] (-) TimerEvent: {}
+[9.780915] (-) TimerEvent: {}
+[9.881778] (-) TimerEvent: {}
+[9.982648] (-) TimerEvent: {}
+[10.083505] (-) TimerEvent: {}
+[10.184347] (-) TimerEvent: {}
+[10.285230] (-) TimerEvent: {}
+[10.386116] (-) TimerEvent: {}
+[10.486997] (-) TimerEvent: {}
+[10.587872] (-) TimerEvent: {}
+[10.688726] (-) TimerEvent: {}
+[10.789592] (-) TimerEvent: {}
+[10.890469] (-) TimerEvent: {}
+[10.991345] (-) TimerEvent: {}
+[11.092218] (-) TimerEvent: {}
+[11.193084] (-) TimerEvent: {}
+[11.293968] (-) TimerEvent: {}
+[11.394878] (-) TimerEvent: {}
+[11.495780] (-) TimerEvent: {}
+[11.596678] (-) TimerEvent: {}
+[11.697586] (-) TimerEvent: {}
+[11.798501] (-) TimerEvent: {}
+[11.899368] (-) TimerEvent: {}
+[12.000285] (-) TimerEvent: {}
+[12.101160] (-) TimerEvent: {}
+[12.202023] (-) TimerEvent: {}
+[12.302885] (-) TimerEvent: {}
+[12.403739] (-) TimerEvent: {}
+[12.504588] (-) TimerEvent: {}
+[12.605453] (-) TimerEvent: {}
+[12.706305] (-) TimerEvent: {}
+[12.807165] (-) TimerEvent: {}
+[12.908104] (-) TimerEvent: {}
+[13.008946] (-) TimerEvent: {}
+[13.109775] (-) TimerEvent: {}
+[13.210622] (-) TimerEvent: {}
+[13.311503] (-) TimerEvent: {}
+[13.412438] (-) TimerEvent: {}
+[13.513432] (-) TimerEvent: {}
+[13.614316] (-) TimerEvent: {}
+[13.715180] (-) TimerEvent: {}
+[13.816076] (-) TimerEvent: {}
+[13.916951] (-) TimerEvent: {}
+[14.017845] (-) TimerEvent: {}
+[14.118704] (-) TimerEvent: {}
+[14.219573] (-) TimerEvent: {}
+[14.320477] (-) TimerEvent: {}
+[14.421366] (-) TimerEvent: {}
+[14.522246] (-) TimerEvent: {}
+[14.623134] (-) TimerEvent: {}
+[14.724016] (-) TimerEvent: {}
+[14.824893] (-) TimerEvent: {}
+[14.925759] (-) TimerEvent: {}
+[15.026615] (-) TimerEvent: {}
+[15.127481] (-) TimerEvent: {}
+[15.204734] (fishbot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/fishbot_bringup/src/fishbot_bringup.cpp:97:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kclass TopicSubscribe01\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.205788] (fishbot_bringup) StderrLine: {'line': b'   97 | class \x1b[01;31m\x1b[KTopicSubscribe01\x1b[m\x1b[K : public rclcpp::Node\n'}
+[15.206279] (fishbot_bringup) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.206707] (fishbot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/fishbot_bringup/src/fishbot_bringup.cpp:6:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious definition of \xe2\x80\x98\x1b[01m\x1b[Kclass TopicSubscribe01\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.207130] (fishbot_bringup) StderrLine: {'line': b'    6 | class \x1b[01;36m\x1b[KTopicSubscribe01\x1b[m\x1b[K : public rclcpp::Node\n'}
+[15.207543] (fishbot_bringup) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.208007] (fishbot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/fishbot_bringup/src/fishbot_bringup.cpp:157:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.208426] (fishbot_bringup) StderrLine: {'line': b'  157 | int \x1b[01;31m\x1b[Kmain\x1b[m\x1b[K(int argc, char **argv)\n'}
+[15.208838] (fishbot_bringup) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[15.209248] (fishbot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/fishbot_bringup/src/fishbot_bringup.cpp:66:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[15.209661] (fishbot_bringup) StderrLine: {'line': b'   66 | int \x1b[01;36m\x1b[Kmain\x1b[m\x1b[K(int argc, char **argv)\n'}
+[15.210069] (fishbot_bringup) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[15.227633] (-) TimerEvent: {}
+[15.328488] (-) TimerEvent: {}
+[15.429294] (-) TimerEvent: {}
+[15.530102] (-) TimerEvent: {}
+[15.630931] (-) TimerEvent: {}
+[15.731761] (-) TimerEvent: {}
+[15.832577] (-) TimerEvent: {}
+[15.933366] (-) TimerEvent: {}
+[16.034154] (-) TimerEvent: {}
+[16.134969] (-) TimerEvent: {}
+[16.235780] (-) TimerEvent: {}
+[16.336654] (-) TimerEvent: {}
+[16.437553] (-) TimerEvent: {}
+[16.538467] (-) TimerEvent: {}
+[16.639359] (-) TimerEvent: {}
+[16.740235] (-) TimerEvent: {}
+[16.841072] (-) TimerEvent: {}
+[16.941896] (-) TimerEvent: {}
+[17.042707] (-) TimerEvent: {}
+[17.143524] (-) TimerEvent: {}
+[17.244346] (-) TimerEvent: {}
+[17.345154] (-) TimerEvent: {}
+[17.445960] (-) TimerEvent: {}
+[17.546807] (-) TimerEvent: {}
+[17.647696] (-) TimerEvent: {}
+[17.748555] (-) TimerEvent: {}
+[17.849415] (-) TimerEvent: {}
+[17.950235] (-) TimerEvent: {}
+[18.051036] (-) TimerEvent: {}
+[18.151856] (-) TimerEvent: {}
+[18.252678] (-) TimerEvent: {}
+[18.353476] (-) TimerEvent: {}
+[18.454284] (-) TimerEvent: {}
+[18.555328] (-) TimerEvent: {}
+[18.656204] (-) TimerEvent: {}
+[18.757051] (-) TimerEvent: {}
+[18.857904] (-) TimerEvent: {}
+[18.958715] (-) TimerEvent: {}
+[19.059562] (-) TimerEvent: {}
+[19.160461] (-) TimerEvent: {}
+[19.261344] (-) TimerEvent: {}
+[19.362225] (-) TimerEvent: {}
+[19.463034] (-) TimerEvent: {}
+[19.563835] (-) TimerEvent: {}
+[19.664662] (-) TimerEvent: {}
+[19.765542] (-) TimerEvent: {}
+[19.866389] (-) TimerEvent: {}
+[19.967201] (-) TimerEvent: {}
+[20.068038] (-) TimerEvent: {}
+[20.168878] (-) TimerEvent: {}
+[20.269722] (-) TimerEvent: {}
+[20.370539] (-) TimerEvent: {}
+[20.471356] (-) TimerEvent: {}
+[20.572149] (-) TimerEvent: {}
+[20.672986] (-) TimerEvent: {}
+[20.773840] (-) TimerEvent: {}
+[20.874658] (-) TimerEvent: {}
+[20.975460] (-) TimerEvent: {}
+[21.076277] (-) TimerEvent: {}
+[21.177099] (-) TimerEvent: {}
+[21.277949] (-) TimerEvent: {}
+[21.378830] (-) TimerEvent: {}
+[21.479722] (-) TimerEvent: {}
+[21.580617] (-) TimerEvent: {}
+[21.681502] (-) TimerEvent: {}
+[21.782373] (-) TimerEvent: {}
+[21.883215] (-) TimerEvent: {}
+[21.984015] (-) TimerEvent: {}
+[22.084795] (-) TimerEvent: {}
+[22.185578] (-) TimerEvent: {}
+[22.286361] (-) TimerEvent: {}
+[22.387141] (-) TimerEvent: {}
+[22.488011] (-) TimerEvent: {}
+[22.588862] (-) TimerEvent: {}
+[22.689668] (-) TimerEvent: {}
+[22.790462] (-) TimerEvent: {}
+[22.891266] (-) TimerEvent: {}
+[22.992064] (-) TimerEvent: {}
+[23.092844] (-) TimerEvent: {}
+[23.193609] (-) TimerEvent: {}
+[23.294401] (-) TimerEvent: {}
+[23.395192] (-) TimerEvent: {}
+[23.495975] (-) TimerEvent: {}
+[23.596846] (-) TimerEvent: {}
+[23.697638] (-) TimerEvent: {}
+[23.798486] (-) TimerEvent: {}
+[23.899340] (-) TimerEvent: {}
+[24.000156] (-) TimerEvent: {}
+[24.101036] (-) TimerEvent: {}
+[24.201947] (-) TimerEvent: {}
+[24.302819] (-) TimerEvent: {}
+[24.403648] (-) TimerEvent: {}
+[24.504461] (-) TimerEvent: {}
+[24.605260] (-) TimerEvent: {}
+[24.706065] (-) TimerEvent: {}
+[24.806897] (-) TimerEvent: {}
+[24.907741] (-) TimerEvent: {}
+[25.008568] (-) TimerEvent: {}
+[25.109392] (-) TimerEvent: {}
+[25.210198] (-) TimerEvent: {}
+[25.311006] (-) TimerEvent: {}
+[25.411839] (-) TimerEvent: {}
+[25.512654] (-) TimerEvent: {}
+[25.613467] (-) TimerEvent: {}
+[25.714263] (-) TimerEvent: {}
+[25.815091] (-) TimerEvent: {}
+[25.915913] (-) TimerEvent: {}
+[26.016746] (-) TimerEvent: {}
+[26.117590] (-) TimerEvent: {}
+[26.218438] (-) TimerEvent: {}
+[26.319263] (-) TimerEvent: {}
+[26.420160] (-) TimerEvent: {}
+[26.521068] (-) TimerEvent: {}
+[26.621956] (-) TimerEvent: {}
+[26.722862] (-) TimerEvent: {}
+[26.823744] (-) TimerEvent: {}
+[26.924576] (-) TimerEvent: {}
+[27.025381] (-) TimerEvent: {}
+[27.126133] (-) TimerEvent: {}
+[27.226856] (-) TimerEvent: {}
+[27.327638] (-) TimerEvent: {}
+[27.428454] (-) TimerEvent: {}
+[27.529226] (-) TimerEvent: {}
+[27.629984] (-) TimerEvent: {}
+[27.730719] (-) TimerEvent: {}
+[27.831495] (-) TimerEvent: {}
+[27.932292] (-) TimerEvent: {}
+[28.033092] (-) TimerEvent: {}
+[28.133910] (-) TimerEvent: {}
+[28.234735] (-) TimerEvent: {}
+[28.335538] (-) TimerEvent: {}
+[28.436346] (-) TimerEvent: {}
+[28.537149] (-) TimerEvent: {}
+[28.638052] (-) TimerEvent: {}
+[28.738843] (-) TimerEvent: {}
+[28.839646] (-) TimerEvent: {}
+[28.940462] (-) TimerEvent: {}
+[29.041276] (-) TimerEvent: {}
+[29.106473] (fishbot_bringup) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/fishbot_bringup.dir/build.make:76: CMakeFiles/fishbot_bringup.dir/src/fishbot_bringup.cpp.o] Error 1\n'}
+[29.107399] (fishbot_bringup) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/fishbot_bringup.dir/all] Error 2\n'}
+[29.108197] (fishbot_bringup) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[29.116104] (fishbot_bringup) CommandEnded: {'returncode': 2}
+[29.141375] (-) TimerEvent: {}
+[29.142464] (fishbot_bringup) JobEnded: {'identifier': 'fishbot_bringup', 'rc': 2}
+[29.154365] (-) EventReactorShutdown: {}

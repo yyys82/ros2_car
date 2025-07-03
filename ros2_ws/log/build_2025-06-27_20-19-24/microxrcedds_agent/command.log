@@ -1,0 +1,3 @@
+Invoking command in '/home/sunrise/ros2_ws/build/microxrcedds_agent': /usr/bin/cmake /home/sunrise/ros2_ws/src/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DUAGENT_USE_SYSTEM_FASTCDR=ON -DUAGENT_USE_SYSTEM_FASTDDS=ON -DCMAKE_INSTALL_PREFIX=/home/sunrise/ros2_ws/install/microxrcedds_agent
+Invoked command in '/home/sunrise/ros2_ws/build/microxrcedds_agent' returned '0': /usr/bin/cmake /home/sunrise/ros2_ws/src/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DUAGENT_USE_SYSTEM_FASTCDR=ON -DUAGENT_USE_SYSTEM_FASTDDS=ON -DCMAKE_INSTALL_PREFIX=/home/sunrise/ros2_ws/install/microxrcedds_agent
+Invoking command in '/home/sunrise/ros2_ws/build/microxrcedds_agent': /usr/bin/cmake --build /home/sunrise/ros2_ws/build/microxrcedds_agent -- -j8 -l8

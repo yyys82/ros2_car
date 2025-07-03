@@ -1,0 +1,80 @@
+[4.151s] Invoking command in '/home/sunrise/ros2_ws/src/navigation2/nav2_simple_commander': AMENT_PREFIX_PATH=/home/sunrise/ros2_ws/install/nav2_msgs:/home/sunrise/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/ros2_ws/install/nav2_msgs:/home/sunrise/ros2_ws/install/nav2_common LD_LIBRARY_PATH=/home/sunrise/ros2_ws/install/nav2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/ros2_ws/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/sunrise/ros2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/sunrise/ros2_ws/build/nav2_simple_commander/build install --record /home/sunrise/ros2_ws/build/nav2_simple_commander/install.log --single-version-externally-managed install_data
+[5.717s] running egg_info
+[5.721s] creating ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info
+[5.722s] writing ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/PKG-INFO
+[5.723s] writing dependency_links to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/dependency_links.txt
+[5.724s] writing entry points to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/entry_points.txt
+[5.725s] writing requirements to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/requires.txt
+[5.726s] writing top-level names to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/top_level.txt
+[5.726s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[5.736s] reading manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[5.743s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[5.743s] running build
+[5.744s] running build_py
+[5.745s] creating /home/sunrise/ros2_ws/build/nav2_simple_commander/build
+[5.746s] creating /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib
+[5.746s] creating /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[5.747s] copying nav2_simple_commander/costmap_2d.py -> /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[5.748s] copying nav2_simple_commander/example_waypoint_follower.py -> /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[5.748s] copying nav2_simple_commander/demo_recoveries.py -> /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[5.749s] copying nav2_simple_commander/__init__.py -> /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[5.749s] copying nav2_simple_commander/demo_inspection.py -> /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[5.750s] copying nav2_simple_commander/robot_navigator.py -> /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[5.750s] copying nav2_simple_commander/demo_picking.py -> /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[5.751s] copying nav2_simple_commander/example_nav_through_poses.py -> /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[5.752s] copying nav2_simple_commander/demo_security.py -> /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[5.752s] copying nav2_simple_commander/example_nav_to_pose.py -> /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[5.753s] copying nav2_simple_commander/example_follow_path.py -> /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[5.755s] running install
+[5.757s] running install_lib
+[5.761s] creating /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[5.762s] copying /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/costmap_2d.py -> /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[5.762s] copying /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_waypoint_follower.py -> /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[5.763s] copying /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_recoveries.py -> /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[5.764s] copying /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/__init__.py -> /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[5.765s] copying /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_inspection.py -> /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[5.765s] copying /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/robot_navigator.py -> /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[5.766s] copying /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_picking.py -> /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[5.767s] copying /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_through_poses.py -> /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[5.767s] copying /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_security.py -> /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[5.768s] copying /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_to_pose.py -> /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[5.768s] copying /home/sunrise/ros2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_follow_path.py -> /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[5.771s] byte-compiling /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/costmap_2d.py to costmap_2d.cpython-310.pyc
+[5.776s] byte-compiling /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_waypoint_follower.py to example_waypoint_follower.cpython-310.pyc
+[5.780s] byte-compiling /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_recoveries.py to demo_recoveries.cpython-310.pyc
+[5.783s] byte-compiling /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/__init__.py to __init__.cpython-310.pyc
+[5.784s] byte-compiling /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_inspection.py to demo_inspection.cpython-310.pyc
+[5.787s] byte-compiling /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/robot_navigator.py to robot_navigator.cpython-310.pyc
+[5.807s] byte-compiling /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_picking.py to demo_picking.cpython-310.pyc
+[5.811s] byte-compiling /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_through_poses.py to example_nav_through_poses.cpython-310.pyc
+[5.815s] byte-compiling /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_security.py to demo_security.cpython-310.pyc
+[5.818s] byte-compiling /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_to_pose.py to example_nav_to_pose.cpython-310.pyc
+[5.821s] byte-compiling /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_follow_path.py to example_follow_path.cpython-310.pyc
+[5.823s] running install_data
+[5.824s] creating /home/sunrise/ros2_ws/install/nav2_simple_commander/share/ament_index
+[5.824s] creating /home/sunrise/ros2_ws/install/nav2_simple_commander/share/ament_index/resource_index
+[5.825s] creating /home/sunrise/ros2_ws/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[5.825s] copying resource/nav2_simple_commander -> /home/sunrise/ros2_ws/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[5.826s] copying package.xml -> /home/sunrise/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[5.826s] copying launch/inspection_demo_launch.py -> /home/sunrise/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[5.827s] copying launch/nav_through_poses_example_launch.py -> /home/sunrise/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[5.827s] copying launch/nav_to_pose_example_launch.py -> /home/sunrise/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[5.828s] copying launch/warehouse.world -> /home/sunrise/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[5.829s] copying launch/security_demo_launch.py -> /home/sunrise/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[5.829s] copying launch/follow_path_example_launch.py -> /home/sunrise/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[5.830s] copying launch/picking_demo_launch.py -> /home/sunrise/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[5.830s] copying launch/waypoint_follower_example_launch.py -> /home/sunrise/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[5.831s] copying launch/recoveries_example_launch.py -> /home/sunrise/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[5.831s] running install_egg_info
+[5.848s] Copying ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander-1.0.0-py3.10.egg-info
+[5.852s] running install_scripts
+[5.965s] Installing demo_inspection script to /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[5.966s] Installing demo_picking script to /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[5.966s] Installing demo_recoveries script to /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[5.967s] Installing demo_security script to /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[5.968s] Installing example_follow_path script to /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[5.968s] Installing example_nav_through_poses script to /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[5.969s] Installing example_nav_to_pose script to /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[5.969s] Installing example_waypoint_follower script to /home/sunrise/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[5.971s] writing list of installed files to '/home/sunrise/ros2_ws/build/nav2_simple_commander/install.log'
+[6.184s] Invoked command in '/home/sunrise/ros2_ws/src/navigation2/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/sunrise/ros2_ws/install/nav2_msgs:/home/sunrise/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/ros2_ws/install/nav2_msgs:/home/sunrise/ros2_ws/install/nav2_common LD_LIBRARY_PATH=/home/sunrise/ros2_ws/install/nav2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/ros2_ws/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/sunrise/ros2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/sunrise/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/sunrise/ros2_ws/build/nav2_simple_commander/build install --record /home/sunrise/ros2_ws/build/nav2_simple_commander/install.log --single-version-externally-managed install_data

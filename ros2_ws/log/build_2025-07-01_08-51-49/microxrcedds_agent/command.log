@@ -1,0 +1,1 @@
+Invoking command in '/home/sunrise/ros2_ws/build/microxrcedds_agent': /usr/bin/cmake --build /home/sunrise/ros2_ws/build/microxrcedds_agent -- -j8 -l8

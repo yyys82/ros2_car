@@ -1,0 +1,33 @@
+[2.075s] Invoking command in '/home/sunrise/ros2_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/ros2_ws/build/fishbot_navigation2 -- -j8 -l8
+[2.367s] Invoked command in '/home/sunrise/ros2_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/ros2_ws/build/fishbot_navigation2 -- -j8 -l8
+[2.374s] Invoking command in '/home/sunrise/ros2_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/ros2_ws/build/fishbot_navigation2
+[2.412s] -- Install configuration: ""
+[2.413s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch
+[2.414s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/navigation2.launch.py
+[2.415s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/odom_ekf.launch.py
+[2.416s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/config
+[2.417s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/config/ekf.yaml
+[2.418s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/param
+[2.419s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/param/fishbot.yaml
+[2.420s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/param/fishbot_nav2.yaml
+[2.421s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps
+[2.421s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/fishbot_map.yaml
+[2.422s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/fishbot_map.png
+[2.423s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/fishbot_map.pgm
+[2.425s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/show_pgm.py
+[2.427s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/ament_index/resource_index/package_run_dependencies/fishbot_navigation2
+[2.431s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/ament_index/resource_index/parent_prefix_path/fishbot_navigation2
+[2.432s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.sh
+[2.433s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.dsv
+[2.434s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.sh
+[2.435s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.dsv
+[2.435s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.bash
+[2.437s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.sh
+[2.439s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.zsh
+[2.439s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.dsv
+[2.440s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv
+[2.441s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/ament_index/resource_index/packages/fishbot_navigation2
+[2.442s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config.cmake
+[2.445s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config-version.cmake
+[2.447s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.xml
+[2.448s] Invoked command in '/home/sunrise/ros2_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/ros2_ws/build/fishbot_navigation2

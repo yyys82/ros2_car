@@ -1,0 +1,293 @@
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/src;/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include;/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sunrise/ros2_ws/build/ydlidar
+[ 18%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/list_ports_linux.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_serial.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_timer.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o[0m
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/lock.c:[m[K In function ‘[01m[Kfhs_lock[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/lock.c:199:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  199 | int fhs_lock(const char *filename, [01;35m[Kint pid[m[K) {
+      |                                    [01;35m[K~~~~^~~[m[K
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/lock.c:[m[K In function ‘[01m[Kuucp_lock[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/lock.c:281:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  281 | int uucp_lock(const char *filename, [01;35m[Kint pid[m[K) {
+      |                                     [01;35m[K~~~~^~~[m[K
+[ 81%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o[0m
+In file included from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/timer.h:2[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/impl/unix/unix_timer.cpp:2[m[K:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+  240 |   struct stat info = {0[01;35m[K}[m[K;
+      |                        [01;35m[K^[m[K
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad1[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad2[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+In file included from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/serial.h:9[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/impl/unix/unix_serial.h:9[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/impl/unix/unix_serial.cpp:39[m[K:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+  240 |   struct stat info = {0[01;35m[K}[m[K;
+      |                        [01;35m[K^[m[K
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad1[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad2[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/impl/unix/unix_serial.cpp:[m[K In member function ‘[01m[Kbool serial::Serial::SerialImpl::setCustomBaudRate(long unsigned int)[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/impl/unix/unix_serial.cpp:1235:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong unsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+ 1235 |   if ([01;35m[Kserial.custom_divisor * baudrate != serial.baud_base[m[K) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/serial.h:9[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/impl/unix/list_ports_linux.cpp:26[m[K:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+  240 |   struct stat info = {0[01;35m[K}[m[K;
+      |                        [01;35m[K^[m[K
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad1[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad2[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/impl/unix/list_ports_linux.cpp:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/impl/unix/list_ports_linux.cpp:58:7:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   58 |   int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+      |       [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/serial.h:9[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/ydlidar_driver.h:54[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/CYdLidar.h:36[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/CYdLidar.cpp:34[m[K:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+  240 |   struct stat info = {0[01;35m[K}[m[K;
+      |                        [01;35m[K^[m[K
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad1[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad2[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+In file included from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/ydlidar_driver.h:56[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/CYdLidar.h:36[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/CYdLidar.cpp:34[m[K:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/thread.h:[m[K In static member function ‘[01m[Kstatic Thread Thread::createThread(thread_proc_t, void*)[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/thread.h:43:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+   43 |     pthread_create((pthread_t *)&thread_._handle, NULL, [01;35m[K(void *(*)(void *))proc[m[K,
+      |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/ydlidar_driver.h:58[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/CYdLidar.h:36[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/CYdLidar.cpp:34[m[K:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/help_info.h:[m[K In function ‘[01m[Kbool ydlidar::isSupportMotorCtrl(int)[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/help_info.h:414:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kret[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  414 |   bool [01;35m[Kret[m[K = false;
+      |        [01;35m[K^~~[m[K
+In file included from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/serial.h:9[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/serial.cpp:11[m[K:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+  240 |   struct stat info = {0[01;35m[K}[m[K;
+      |                        [01;35m[K^[m[K
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad1[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad2[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+In file included from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/serial.h:9[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/ydlidar_driver.h:54[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/ydlidar_driver.cpp:34[m[K:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+  240 |   struct stat info = {0[01;35m[K}[m[K;
+      |                        [01;35m[K^[m[K
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad1[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad2[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+In file included from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/ydlidar_driver.h:56[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/ydlidar_driver.cpp:34[m[K:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/thread.h:[m[K In static member function ‘[01m[Kstatic Thread Thread::createThread(thread_proc_t, void*)[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/thread.h:43:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+   43 |     pthread_create((pthread_t *)&thread_._handle, NULL, [01;35m[K(void *(*)(void *))proc[m[K,
+      |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/ydlidar_driver.h:58[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/ydlidar_driver.cpp:34[m[K:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/help_info.h:[m[K In function ‘[01m[Kbool ydlidar::isSupportMotorCtrl(int)[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/help_info.h:414:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kret[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  414 |   bool [01;35m[Kret[m[K = false;
+      |        [01;35m[K^~~[m[K
+In file included from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/common.h:47[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/serial.cpp:12[m[K:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/thread.h:[m[K In static member function ‘[01m[Kstatic Thread Thread::createThread(thread_proc_t, void*)[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/thread.h:43:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+   43 |     pthread_create((pthread_t *)&thread_._handle, NULL, [01;35m[K(void *(*)(void *))proc[m[K,
+      |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/ydlidar_driver.cpp:[m[K In member function ‘[01m[Kresult_t ydlidar::YDlidarDriver::waitPackage(node_info*, uint32_t)[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/ydlidar_driver.cpp:992:95:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around arithmetic in operand of ‘[01m[K|[m[K’ [[01;35m[K-Wparentheses[m[K]
+  992 |                                          [01;35m[Kpackages.packageSampleDistance[package_Sample_Index] &[m[K
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  993 | [01;35m[K                                         0x0003[m[K)) << LIDAR_RESP_MEASUREMENT_QUALITY_SHIFT;
+      |                                          [01;35m[K~~~~~~[m[K                                                
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/CYdLidar.cpp:[m[K In member function ‘[01m[Kbool CYdLidar::doProcessSimple(LaserScan&, bool&)[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/CYdLidar.cpp:216:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  216 |     for (int i = 0; [01;35m[Ki < count[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~[m[K
+In file included from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/ydlidar_driver.h:58[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/CYdLidar.h:36[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/CYdLidar.cpp:34[m[K:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/help_info.h:[m[K In function ‘[01m[Kbool ydlidar::ParseLaserDebugInfo(const LaserDebug&, device_info&)[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/help_info.h:679:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksprintf[m[K’ writing a terminating nul past the end of the destination [[01;35m[K-Wformat-overflow=[m[K]
+  679 |       sprintf(reinterpret_cast<char *>(value.serialnum + 8), "%08d[01;35m[K"[m[K, Number);
+      |                                                                   [01;35m[K^[m[K
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/help_info.h:679:14:[m[K [01;36m[Knote: [m[K‘[01m[Ksprintf[m[K’ output 9 bytes into a destination of size 8
+  679 |       [01;36m[Ksprintf(reinterpret_cast<char *>(value.serialnum + 8), "%08d", Number)[m[K;
+      |       [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/serial.h:9[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/ydlidar_driver.h:54[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/CYdLidar.h:36[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/src/ydlidar_node.cpp:26[m[K:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+  240 |   struct stat info = {0[01;35m[K}[m[K;
+      |                        [01;35m[K^[m[K
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad1[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad2[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+In file included from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/ydlidar_driver.h:56[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/CYdLidar.h:36[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/src/ydlidar_node.cpp:26[m[K:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/thread.h:[m[K In static member function ‘[01m[Kstatic Thread Thread::createThread(thread_proc_t, void*)[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/thread.h:43:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+   43 |     pthread_create((pthread_t *)&thread_._handle, NULL, [01;35m[K(void *(*)(void *))proc[m[K,
+      |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/ydlidar_driver.h:58[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/CYdLidar.h:36[m[K,
+                 from [01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/src/ydlidar_node.cpp:26[m[K:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/help_info.h:[m[K In function ‘[01m[Kbool ydlidar::isSupportMotorCtrl(int)[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/help_info.h:414:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kret[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  414 |   bool [01;35m[Kret[m[K = false;
+      |        [01;35m[K^~~[m[K
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/src/ydlidar_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/src/ydlidar_node.cpp:222:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  222 |       for (int i = 0; [01;35m[Ki < scan.points.size()[m[K; i++)
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[ 90%] [32m[1mLinking CXX executable ydlidar_node[0m
+[ 90%] Built target ydlidar_node
+[100%] [32m[1mLinking CXX executable ydlidar_client[0m
+[100%] Built target ydlidar_client

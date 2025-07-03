@@ -1,0 +1,27 @@
+[ 18%] Built target ydlidar_client
+[100%] Built target ydlidar_node
+-- Install configuration: ""
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_node
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_client
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/launch
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/launch/ydlidar_launch.py
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/launch/ydlidar.py
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/params
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/params/ydlidar.yaml
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/startup
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/startup/initenv.sh
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/environment/path.sh
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/environment/path.dsv
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/local_setup.bash
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/local_setup.sh
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/local_setup.zsh
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/local_setup.dsv
+-- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/package.dsv
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ament_index/resource_index/packages/ydlidar
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake
+-- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/package.xml

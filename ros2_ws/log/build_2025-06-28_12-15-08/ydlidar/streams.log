@@ -1,0 +1,31 @@
+[1.454s] Invoking command in '/home/sunrise/ros2_ws/build/ydlidar': /usr/bin/cmake --build /home/sunrise/ros2_ws/build/ydlidar -- -j8 -l8
+[1.789s] [ 45%] Built target ydlidar_client
+[1.790s] [100%] Built target ydlidar_node
+[1.840s] Invoked command in '/home/sunrise/ros2_ws/build/ydlidar' returned '0': /usr/bin/cmake --build /home/sunrise/ros2_ws/build/ydlidar -- -j8 -l8
+[1.886s] Invoking command in '/home/sunrise/ros2_ws/build/ydlidar': /usr/bin/cmake --install /home/sunrise/ros2_ws/build/ydlidar
+[1.926s] -- Install configuration: ""
+[1.930s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_node
+[1.933s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_client
+[1.934s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/launch
+[1.935s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/launch/ydlidar_launch.py
+[1.936s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/launch/ydlidar.py
+[1.937s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/params
+[1.938s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/params/ydlidar.yaml
+[1.939s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/startup
+[1.939s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/startup/initenv.sh
+[1.940s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar
+[1.940s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar
+[1.941s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh
+[1.941s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv
+[1.942s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/environment/path.sh
+[1.942s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/environment/path.dsv
+[1.943s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/local_setup.bash
+[1.943s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/local_setup.sh
+[1.944s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/local_setup.zsh
+[1.944s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/local_setup.dsv
+[1.945s] -- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/package.dsv
+[1.945s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ament_index/resource_index/packages/ydlidar
+[1.946s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake
+[1.947s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake
+[1.950s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/package.xml
+[1.953s] Invoked command in '/home/sunrise/ros2_ws/build/ydlidar' returned '0': /usr/bin/cmake --install /home/sunrise/ros2_ws/build/ydlidar

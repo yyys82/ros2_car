@@ -1,0 +1,261 @@
+[0.629s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-up-to', 'fishbot_navigation2']
+[0.630s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=['fishbot_navigation2'], packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffac395bd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffac395720>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffac395720>>)
+[1.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.786s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.786s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.786s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.786s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sunrise/ros2_ws'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/Micro-XRCE-DDS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/Micro-XRCE-DDS-Agent) by extension 'ignore'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/Micro-XRCE-DDS-Agent) by extension 'ignore_ament_install'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/Micro-XRCE-DDS-Agent) by extensions ['colcon_pkg']
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/Micro-XRCE-DDS-Agent) by extension 'colcon_pkg'
+[1.873s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting type 'cmake' of package 'src/Micro-XRCE-DDS-Agent' from colcon.pkg
+[1.873s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'microxrcedds_agent' of package 'src/Micro-XRCE-DDS-Agent' from colcon.pkg
+[1.873s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Micro-XRCE-DDS-Agent' with type 'cmake' and name 'microxrcedds_agent'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_bringup) by extension 'ignore'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_bringup) by extension 'ignore_ament_install'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_bringup) by extensions ['colcon_pkg']
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_bringup) by extension 'colcon_pkg'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_bringup) by extensions ['colcon_meta']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_bringup) by extension 'colcon_meta'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_bringup) by extensions ['ros']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_bringup) by extension 'ros'
+[1.889s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_bringup' with type 'ros.ament_cmake' and name 'fishbot_bringup'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ignore'
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ignore_ament_install'
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['colcon_pkg']
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'colcon_pkg'
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['colcon_meta']
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'colcon_meta'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['ros']
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ros'
+[1.895s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_description' with type 'ros.ament_python' and name 'fishbot_description'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ignore'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ignore_ament_install'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['colcon_pkg']
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'colcon_pkg'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['colcon_meta']
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'colcon_meta'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['ros']
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ros'
+[1.901s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_navigation2' with type 'ros.ament_cmake' and name 'fishbot_navigation2'
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'ignore'
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'ignore_ament_install'
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extensions ['colcon_pkg']
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'colcon_pkg'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extensions ['colcon_meta']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'colcon_meta'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extensions ['ros']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'ros'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extensions ['cmake', 'python']
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'cmake'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'python'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extensions ['python_setup_py']
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'python_setup_py'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[1.915s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'ignore'
+[1.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[1.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[1.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[1.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[1.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[1.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extensions ['ros']
+[1.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'ros'
+[1.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'cmake'
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'python'
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'python'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'ignore'
+[1.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[1.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[1.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[1.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extensions ['ros']
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'ros'
+[1.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[1.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'cmake'
+[1.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'python'
+[1.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extension 'ignore'
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extension 'ignore_ament_install'
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extensions ['colcon_pkg']
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extension 'colcon_pkg'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extensions ['colcon_meta']
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extension 'colcon_meta'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extensions ['ros']
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extension 'ros'
+[1.934s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2-1.0.0-fishbot) by extensions ['ignore', 'ignore_ament_install']
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2-1.0.0-fishbot) by extension 'ignore'
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2-1.0.0-fishbot) by extension 'ignore_ament_install'
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2-1.0.0-fishbot) by extensions ['colcon_pkg']
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2-1.0.0-fishbot) by extension 'colcon_pkg'
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2-1.0.0-fishbot) by extensions ['colcon_meta']
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2-1.0.0-fishbot) by extension 'colcon_meta'
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2-1.0.0-fishbot) by extensions ['ros']
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2-1.0.0-fishbot) by extension 'ros'
+[1.941s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2-1.0.0-fishbot' with type 'ros.ament_cmake' and name 'ydlidar'
+[1.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.943s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.137s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/Micro-XRCE-DDS-Agent' from colcon.pkg: {'name': 'microxrcedds_agent', 'type': 'cmake', 'dependencies': ['fastcdr', 'fastrtps'], 'cmake-args': ['-DUAGENT_ISOLATED_INSTALL=OFF', '-DUAGENT_USE_SYSTEM_FASTCDR=ON', '-DUAGENT_USE_SYSTEM_FASTDDS=ON']}
+[2.145s] INFO:colcon.colcon_core.package_selection:Skipping package 'micro_ros_agent' in 'src/micro-ROS-Agent/micro_ros_agent'
+[2.145s] INFO:colcon.colcon_core.package_selection:Skipping package 'ydlidar' in 'src/ydlidar_ros2-1.0.0-fishbot'
+[2.145s] INFO:colcon.colcon_core.package_selection:Skipping package 'microxrcedds_agent' in 'src/Micro-XRCE-DDS-Agent'
+[2.145s] INFO:colcon.colcon_core.package_selection:Skipping package 'micro_ros_msgs' in 'src/micro_ros_msgs'
+[2.146s] INFO:colcon.colcon_core.package_selection:Skipping package 'fishbot_description' in 'src/fishbot_description'
+[2.146s] INFO:colcon.colcon_core.package_selection:Skipping package 'fishbot_bringup' in 'src/fishbot_bringup'
+[2.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.161s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/sunrise/ros2_ws/install
+[2.171s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 340 installed packages in /opt/ros/humble
+[2.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.505s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_args' from command line to 'None'
+[2.506s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_target' from command line to 'None'
+[2.506s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.506s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.506s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[2.506s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[2.507s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[2.507s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.507s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.507s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/ros2_ws/build/fishbot_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/ros2_ws/install/fishbot_navigation2', 'merge_install': False, 'path': '/home/sunrise/ros2_ws/src/fishbot_navigation2', 'symlink_install': False, 'test_result_base': None}
+[2.508s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.513s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.514s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunrise/ros2_ws/src/fishbot_navigation2' with build type 'ament_cmake'
+[2.515s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunrise/ros2_ws/src/fishbot_navigation2'
+[2.525s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/ros2_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/ros2_ws/build/fishbot_navigation2 -- -j8 -l8
+[4.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/ros2_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/ros2_ws/build/fishbot_navigation2 -- -j8 -l8
+[4.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/ros2_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/ros2_ws/build/fishbot_navigation2
+[4.211s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_navigation2)
+[4.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/ros2_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/ros2_ws/build/fishbot_navigation2
+[4.231s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/ros2_ws/install/fishbot_navigation2' for CMake module files
+[4.236s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/ros2_ws/install/fishbot_navigation2' for CMake config files
+[4.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[4.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[4.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[4.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[4.254s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/ros2_ws/install/fishbot_navigation2/bin'
+[4.254s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/ros2_ws/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[4.256s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/ros2_ws/install/fishbot_navigation2/lib/python3.10/site-packages'
+[4.257s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/ros2_ws/install/fishbot_navigation2/bin'
+[4.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[4.265s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[4.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[4.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[4.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[4.285s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/ros2_ws/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[4.288s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_navigation2)
+[4.290s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/ros2_ws/install/fishbot_navigation2' for CMake module files
+[4.293s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/ros2_ws/install/fishbot_navigation2' for CMake config files
+[4.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[4.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[4.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[4.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[4.302s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/ros2_ws/install/fishbot_navigation2/bin'
+[4.302s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/ros2_ws/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[4.304s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/ros2_ws/install/fishbot_navigation2/lib/python3.10/site-packages'
+[4.305s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/ros2_ws/install/fishbot_navigation2/bin'
+[4.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[4.310s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[4.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[4.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[4.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[4.320s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/ros2_ws/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[4.322s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.324s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.324s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.352s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.353s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.353s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.353s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.373s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.375s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/ros2_ws/install/local_setup.ps1'
+[4.381s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/ros2_ws/install/_local_setup_util_ps1.py'
+[4.390s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/ros2_ws/install/setup.ps1'
+[4.399s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/ros2_ws/install/local_setup.sh'
+[4.402s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/ros2_ws/install/_local_setup_util_sh.py'
+[4.406s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/ros2_ws/install/setup.sh'
+[4.414s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/ros2_ws/install/local_setup.bash'
+[4.417s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/ros2_ws/install/setup.bash'
+[4.426s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/ros2_ws/install/local_setup.zsh'
+[4.429s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/ros2_ws/install/setup.zsh'

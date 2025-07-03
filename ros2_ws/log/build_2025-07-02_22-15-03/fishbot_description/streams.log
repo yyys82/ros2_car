@@ -1,0 +1,21 @@
+[5.926s] Invoking command in '/home/sunrise/ros2_ws/src/fishbot_description': PYTHONPATH=/home/sunrise/ros2_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/sunrise/ros2_ws/build/fishbot_description/build install --record /home/sunrise/ros2_ws/build/fishbot_description/install.log --single-version-externally-managed install_data
+[7.607s] running egg_info
+[7.620s] writing ../../build/fishbot_description/fishbot_description.egg-info/PKG-INFO
+[7.621s] writing dependency_links to ../../build/fishbot_description/fishbot_description.egg-info/dependency_links.txt
+[7.622s] writing entry points to ../../build/fishbot_description/fishbot_description.egg-info/entry_points.txt
+[7.623s] writing requirements to ../../build/fishbot_description/fishbot_description.egg-info/requires.txt
+[7.623s] writing top-level names to ../../build/fishbot_description/fishbot_description.egg-info/top_level.txt
+[7.633s] reading manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[7.638s] writing manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[7.639s] running build
+[7.639s] running build_py
+[7.640s] running install
+[7.642s] running install_lib
+[7.648s] running install_data
+[7.649s] running install_egg_info
+[7.659s] removing '/home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info' (and everything under it)
+[7.661s] Copying ../../build/fishbot_description/fishbot_description.egg-info to /home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info
+[7.665s] running install_scripts
+[7.776s] Installing rotate_wheel script to /home/sunrise/ros2_ws/install/fishbot_description/lib/fishbot_description
+[7.778s] writing list of installed files to '/home/sunrise/ros2_ws/build/fishbot_description/install.log'
+[7.996s] Invoked command in '/home/sunrise/ros2_ws/src/fishbot_description' returned '0': PYTHONPATH=/home/sunrise/ros2_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/sunrise/ros2_ws/build/fishbot_description/build install --record /home/sunrise/ros2_ws/build/fishbot_description/install.log --single-version-externally-managed install_data

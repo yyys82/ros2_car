@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/fishbot_bringup.dir/build.make:76: CMakeFiles/fishbot_bringup.dir/src/fishbot_bringup.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/fishbot_bringup.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

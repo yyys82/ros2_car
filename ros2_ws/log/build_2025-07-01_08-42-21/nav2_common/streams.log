@@ -1,0 +1,47 @@
+[0.199s] Invoking command in '/home/sunrise/ros2_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/ros2_ws/build/nav2_common -- -j8 -l8
+[2.457s] Built target ament_cmake_python_copy_nav2_common
+[2.502s] running egg_info
+[2.503s] writing nav2_common.egg-info/PKG-INFO
+[2.503s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[2.504s] writing top-level names to nav2_common.egg-info/top_level.txt
+[2.509s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[2.511s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[2.747s] Built target ament_cmake_python_build_nav2_common_egg
+[2.803s] Invoked command in '/home/sunrise/ros2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/ros2_ws/build/nav2_common -- -j8 -l8
+[2.811s] Invoking command in '/home/sunrise/ros2_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/ros2_ws/build/nav2_common
+[2.855s] -- Install configuration: ""
+[2.856s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[2.857s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[2.858s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.0-py3.10.egg-info
+[2.859s] -- Installing: /home/sunrise/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.0-py3.10.egg-info/PKG-INFO
+[2.859s] -- Installing: /home/sunrise/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.0-py3.10.egg-info/SOURCES.txt
+[2.860s] -- Installing: /home/sunrise/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.0-py3.10.egg-info/top_level.txt
+[2.861s] -- Installing: /home/sunrise/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.0-py3.10.egg-info/dependency_links.txt
+[2.862s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common
+[2.863s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py
+[2.864s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch
+[2.864s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py
+[2.865s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py
+[2.866s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py
+[2.868s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py
+[3.165s] Listing '/home/sunrise/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common'...
+[3.166s] Listing '/home/sunrise/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch'...
+[3.528s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[3.529s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[3.531s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[3.532s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[3.532s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/share/nav2_common/environment/path.sh
+[3.534s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/share/nav2_common/environment/path.dsv
+[3.535s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/share/nav2_common/local_setup.bash
+[3.535s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/share/nav2_common/local_setup.sh
+[3.537s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/share/nav2_common/local_setup.zsh
+[3.538s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/share/nav2_common/local_setup.dsv
+[3.540s] -- Installing: /home/sunrise/ros2_ws/install/nav2_common/share/nav2_common/package.dsv
+[3.541s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[3.542s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[3.543s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[3.544s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[3.544s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/share/nav2_common/package.xml
+[3.546s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/share/nav2_common/cmake
+[3.547s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[3.609s] Invoked command in '/home/sunrise/ros2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/ros2_ws/build/nav2_common

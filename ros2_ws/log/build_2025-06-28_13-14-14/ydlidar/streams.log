@@ -1,0 +1,31 @@
+[2.050s] Invoking command in '/home/sunrise/ros2_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description /usr/bin/cmake --build /home/sunrise/ros2_ws/build/ydlidar -- -j8 -l8
+[2.306s] [ 18%] Built target ydlidar_client
+[2.328s] [100%] Built target ydlidar_node
+[2.427s] Invoked command in '/home/sunrise/ros2_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description /usr/bin/cmake --build /home/sunrise/ros2_ws/build/ydlidar -- -j8 -l8
+[2.430s] Invoking command in '/home/sunrise/ros2_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description /usr/bin/cmake --install /home/sunrise/ros2_ws/build/ydlidar
+[2.433s] -- Install configuration: ""
+[2.434s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_node
+[2.435s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_client
+[2.436s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/launch
+[2.436s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/launch/ydlidar_launch.py
+[2.437s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/launch/ydlidar.py
+[2.437s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/params
+[2.438s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/params/ydlidar.yaml
+[2.439s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/startup
+[2.439s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/startup/initenv.sh
+[2.440s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar
+[2.440s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar
+[2.441s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh
+[2.443s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv
+[2.445s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/environment/path.sh
+[2.448s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/environment/path.dsv
+[2.449s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/local_setup.bash
+[2.450s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/local_setup.sh
+[2.451s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/local_setup.zsh
+[2.454s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/local_setup.dsv
+[2.456s] -- Installing: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/package.dsv
+[2.457s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ament_index/resource_index/packages/ydlidar
+[2.457s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake
+[2.459s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake
+[2.461s] -- Up-to-date: /home/sunrise/ros2_ws/install/ydlidar/share/ydlidar/package.xml
+[2.462s] Invoked command in '/home/sunrise/ros2_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description /usr/bin/cmake --install /home/sunrise/ros2_ws/build/ydlidar

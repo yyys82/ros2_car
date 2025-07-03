@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/CMakeFiles/microxrcedds_client"
+		},
+		{
+			"file" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/CMakeFiles/microxrcedds_client.rule"
+		},
+		{
+			"file" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/CMakeFiles/microxrcedds_client-complete.rule"
+		},
+		{
+			"file" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-build.rule"
+		},
+		{
+			"file" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-configure.rule"
+		},
+		{
+			"file" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-download.rule"
+		},
+		{
+			"file" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-install.rule"
+		},
+		{
+			"file" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-mkdir.rule"
+		},
+		{
+			"file" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-patch.rule"
+		},
+		{
+			"file" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"microxrcedds_client"
+		],
+		"name" : "microxrcedds_client"
+	}
+}

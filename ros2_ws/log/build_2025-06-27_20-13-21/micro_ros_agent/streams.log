@@ -1,0 +1,19 @@
+[0.038s] Invoking command in '/home/sunrise/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --build /home/sunrise/ros2_ws/build/micro_ros_agent -- -j8 -l8
+[0.233s] [  6%] [34m[1mPerforming download step (git clone) for 'xrceagent'[0m
+[0.324s] Cloning into 'xrceagent'...
+[0.365s] fatal: unable to access 'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git/': Failed to connect to github.com port 443 after 3 ms: Connection refused
+[0.380s] Cloning into 'xrceagent'...
+[0.423s] fatal: unable to access 'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git/': Failed to connect to github.com port 443 after 3 ms: Connection refused
+[0.437s] Cloning into 'xrceagent'...
+[0.481s] fatal: unable to access 'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git/': Failed to connect to github.com port 443 after 4 ms: Connection refused
+[0.488s] -- Had to git clone more than once:
+[0.489s]           3 times.
+[0.489s] [31mCMake Error at /home/sunrise/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-gitclone.cmake:31 (message):
+[0.490s]   Failed to clone repository:
+[0.490s]   'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git'
+[0.490s] 
+[0.491s] [0m
+[0.494s] gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:99: agent/src/xrceagent-stamp/xrceagent-download] Error 1
+[0.495s] gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2
+[0.496s] gmake: *** [Makefile:91: all] Error 2
+[0.511s] Invoked command in '/home/sunrise/ros2_ws/build/micro_ros_agent' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --build /home/sunrise/ros2_ws/build/micro_ros_agent -- -j8 -l8

@@ -1,0 +1,10 @@
+/home/sunrise/ros2_ws/build/fishbot_bringup/CMakeFiles/uninstall.dir
+/home/sunrise/ros2_ws/build/fishbot_bringup/CMakeFiles/fishbot_bringup_uninstall.dir
+/home/sunrise/ros2_ws/build/fishbot_bringup/CMakeFiles/fishbot_bringup.dir
+/home/sunrise/ros2_ws/build/fishbot_bringup/CMakeFiles/test.dir
+/home/sunrise/ros2_ws/build/fishbot_bringup/CMakeFiles/edit_cache.dir
+/home/sunrise/ros2_ws/build/fishbot_bringup/CMakeFiles/rebuild_cache.dir
+/home/sunrise/ros2_ws/build/fishbot_bringup/CMakeFiles/list_install_components.dir
+/home/sunrise/ros2_ws/build/fishbot_bringup/CMakeFiles/install.dir
+/home/sunrise/ros2_ws/build/fishbot_bringup/CMakeFiles/install/local.dir
+/home/sunrise/ros2_ws/build/fishbot_bringup/CMakeFiles/install/strip.dir

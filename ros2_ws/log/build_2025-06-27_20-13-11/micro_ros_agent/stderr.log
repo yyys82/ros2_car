@@ -1,0 +1,14 @@
+Cloning into 'xrceagent'...
+fatal: unable to access 'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git/': Failed to connect to github.com port 443 after 54 ms: Connection refused
+Cloning into 'xrceagent'...
+fatal: unable to access 'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git/': Failed to connect to github.com port 443 after 42 ms: Connection refused
+Cloning into 'xrceagent'...
+fatal: unable to access 'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git/': Failed to connect to github.com port 443 after 46 ms: Connection refused
+[31mCMake Error at /home/sunrise/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-gitclone.cmake:31 (message):
+  Failed to clone repository:
+  'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git'
+
+[0m
+gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:99: agent/src/xrceagent-stamp/xrceagent-download] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

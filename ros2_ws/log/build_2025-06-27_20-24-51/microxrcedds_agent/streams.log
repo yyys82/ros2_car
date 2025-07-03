@@ -1,0 +1,19 @@
+[0.073s] Invoking command in '/home/sunrise/ros2_ws/build/microxrcedds_agent': /usr/bin/cmake --build /home/sunrise/ros2_ws/build/microxrcedds_agent -- -j8 -l8
+[0.269s] [  6%] [34m[1mPerforming download step (git clone) for 'microxrcedds_client'[0m
+[0.361s] Cloning into 'microxrcedds_client'...
+[0.475s] fatal: unable to access 'https://github.com/eProsima/Micro-XRCE-DDS-Client.git/': Failed to connect to github.com port 443 after 38 ms: Connection refused
+[0.488s] Cloning into 'microxrcedds_client'...
+[0.582s] fatal: unable to access 'https://github.com/eProsima/Micro-XRCE-DDS-Client.git/': Failed to connect to github.com port 443 after 53 ms: Connection refused
+[0.596s] Cloning into 'microxrcedds_client'...
+[0.696s] fatal: unable to access 'https://github.com/eProsima/Micro-XRCE-DDS-Client.git/': Failed to connect to github.com port 443 after 66 ms: Connection refused
+[0.703s] -- Had to git clone more than once:
+[0.703s]           3 times.
+[0.704s] [31mCMake Error at /home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/tmp/microxrcedds_client-gitclone.cmake:31 (message):
+[0.704s]   Failed to clone repository:
+[0.705s]   'https://github.com/eProsima/Micro-XRCE-DDS-Client.git'
+[0.705s] 
+[0.706s] [0m
+[0.709s] gmake[2]: *** [CMakeFiles/microxrcedds_client.dir/build.make:99: microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-download] Error 1
+[0.710s] gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/microxrcedds_client.dir/all] Error 2
+[0.711s] gmake: *** [Makefile:91: all] Error 2
+[0.720s] Invoked command in '/home/sunrise/ros2_ws/build/microxrcedds_agent' returned '2': /usr/bin/cmake --build /home/sunrise/ros2_ws/build/microxrcedds_agent -- -j8 -l8

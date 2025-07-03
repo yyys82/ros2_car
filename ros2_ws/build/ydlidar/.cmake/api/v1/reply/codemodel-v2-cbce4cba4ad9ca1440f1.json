@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-52bdfc89f49a3beaa202.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ydlidar",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-fc876d173240e9dd7db2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ydlidar_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ydlidar_client-369aa8777a7b696d3993.json",
+					"name" : "ydlidar_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ydlidar_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ydlidar_node-4365a0eddbe1d139ed5d.json",
+					"name" : "ydlidar_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ydlidar_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ydlidar_uninstall-3d8dd7e6f38fa3ef484c.json",
+					"name" : "ydlidar_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sunrise/ros2_ws/build/ydlidar",
+		"source" : "/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,4 @@
+source;share/ydlidar/local_setup.bash
+source;share/ydlidar/local_setup.dsv
+source;share/ydlidar/local_setup.sh
+source;share/ydlidar/local_setup.zsh

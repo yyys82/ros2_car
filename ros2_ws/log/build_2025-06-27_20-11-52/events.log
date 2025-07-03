@@ -1,0 +1,1252 @@
+[0.000000] (-) TimerEvent: {}
+[0.001890] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.002588] (ydlidar) JobQueued: {'identifier': 'ydlidar', 'dependencies': OrderedDict()}
+[0.003273] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/sunrise/ros2_ws/install/micro_ros_msgs')])}
+[0.003534] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.030378] (ydlidar) JobStarted: {'identifier': 'ydlidar'}
+[0.052403] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.054526] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/ros2_ws/src/micro_ros_msgs', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/ros2_ws/install/micro_ros_msgs'], 'cwd': '/home/sunrise/ros2_ws/build/micro_ros_msgs', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.137.1 52753 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/ydlidar:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/ros2_ws/build/micro_ros_msgs'), ('SSH_CONNECTION', '192.168.137.1 52753 192.168.137.42 22'), ('PYTHONPATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/ydlidar:/opt/ros/humble')]), 'shell': False}
+[0.068811] (ydlidar) JobProgress: {'identifier': 'ydlidar', 'progress': 'cmake'}
+[0.070854] (ydlidar) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/ros2_ws/install/ydlidar'], 'cwd': '/home/sunrise/ros2_ws/build/ydlidar', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.137.1 52753 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/ydlidar:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/ros2_ws/build/ydlidar'), ('SSH_CONNECTION', '192.168.137.1 52753 192.168.137.42 22'), ('PYTHONPATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/ydlidar:/opt/ros/humble')]), 'shell': False}
+[0.098706] (-) TimerEvent: {}
+[0.199665] (-) TimerEvent: {}
+[0.300786] (-) TimerEvent: {}
+[0.361372] (micro_ros_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.369733] (ydlidar) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.400963] (-) TimerEvent: {}
+[0.502014] (-) TimerEvent: {}
+[0.603134] (-) TimerEvent: {}
+[0.677049] (micro_ros_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.692718] (ydlidar) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.703305] (-) TimerEvent: {}
+[0.710541] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.726926] (ydlidar) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.803544] (-) TimerEvent: {}
+[0.904572] (-) TimerEvent: {}
+[1.005642] (-) TimerEvent: {}
+[1.073686] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.094381] (ydlidar) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.105826] (-) TimerEvent: {}
+[1.136391] (micro_ros_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.137695] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.139961] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.150586] (ydlidar) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.151555] (ydlidar) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.153438] (ydlidar) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.155219] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.167718] (ydlidar) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.206060] (-) TimerEvent: {}
+[1.307126] (-) TimerEvent: {}
+[1.408142] (-) TimerEvent: {}
+[1.509159] (-) TimerEvent: {}
+[1.563222] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.583930] (ydlidar) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.609339] (-) TimerEvent: {}
+[1.638704] (micro_ros_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.640142] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.642921] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.650893] (ydlidar) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.651713] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.652346] (ydlidar) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.654346] (ydlidar) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.662594] (ydlidar) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.709488] (-) TimerEvent: {}
+[1.810347] (-) TimerEvent: {}
+[1.911181] (-) TimerEvent: {}
+[2.012036] (-) TimerEvent: {}
+[2.112985] (-) TimerEvent: {}
+[2.213975] (-) TimerEvent: {}
+[2.314776] (-) TimerEvent: {}
+[2.415689] (-) TimerEvent: {}
+[2.516641] (-) TimerEvent: {}
+[2.563568] (ydlidar) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.578078] (micro_ros_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.616838] (-) TimerEvent: {}
+[2.717733] (-) TimerEvent: {}
+[2.818572] (-) TimerEvent: {}
+[2.919460] (-) TimerEvent: {}
+[3.020413] (-) TimerEvent: {}
+[3.060369] (ydlidar) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.074559] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.086455] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.112692] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.120557] (-) TimerEvent: {}
+[3.221392] (-) TimerEvent: {}
+[3.230232] (ydlidar) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.252033] (ydlidar) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.289393] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.290283] (ydlidar) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.321617] (-) TimerEvent: {}
+[3.352466] (ydlidar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.421809] (-) TimerEvent: {}
+[3.433517] (ydlidar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.456317] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.521989] (-) TimerEvent: {}
+[3.622936] (-) TimerEvent: {}
+[3.651431] (ydlidar) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.662220] (ydlidar) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.723079] (-) TimerEvent: {}
+[3.823946] (-) TimerEvent: {}
+[3.924817] (-) TimerEvent: {}
+[4.025679] (-) TimerEvent: {}
+[4.030971] (ydlidar) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.125842] (-) TimerEvent: {}
+[4.151894] (ydlidar) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.226042] (-) TimerEvent: {}
+[4.326929] (-) TimerEvent: {}
+[4.331258] (ydlidar) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.365488] (ydlidar) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.427114] (-) TimerEvent: {}
+[4.528084] (-) TimerEvent: {}
+[4.629078] (-) TimerEvent: {}
+[4.730100] (-) TimerEvent: {}
+[4.731941] (ydlidar) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.733594] (ydlidar) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.830295] (-) TimerEvent: {}
+[4.931215] (-) TimerEvent: {}
+[5.032240] (-) TimerEvent: {}
+[5.049770] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.104599] (ydlidar) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.109553] (ydlidar) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.132363] (-) TimerEvent: {}
+[5.233212] (-) TimerEvent: {}
+[5.334043] (-) TimerEvent: {}
+[5.395416] (ydlidar) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.434249] (-) TimerEvent: {}
+[5.535139] (-) TimerEvent: {}
+[5.576085] (ydlidar) StdoutLine: {'line': b'-- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[5.635352] (-) TimerEvent: {}
+[5.720405] (ydlidar) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.735517] (-) TimerEvent: {}
+[5.836396] (-) TimerEvent: {}
+[5.937245] (-) TimerEvent: {}
+[6.038063] (-) TimerEvent: {}
+[6.111256] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.138265] (-) TimerEvent: {}
+[6.183913] (ydlidar) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.238410] (-) TimerEvent: {}
+[6.270134] (ydlidar) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.272760] (ydlidar) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/src;/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include;/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src\n'}
+[6.273423] (ydlidar) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.338570] (-) TimerEvent: {}
+[6.359613] (ydlidar) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[6.360474] (ydlidar) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[6.372541] (ydlidar) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.395140] (ydlidar) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.407943] (ydlidar) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.438750] (-) TimerEvent: {}
+[6.493521] (ydlidar) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.494302] (ydlidar) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.506331] (ydlidar) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.512035] (ydlidar) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.538915] (-) TimerEvent: {}
+[6.591103] (ydlidar) StdoutLine: {'line': b'-- Generating done\n'}
+[6.626535] (ydlidar) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/ros2_ws/build/ydlidar\n'}
+[6.639103] (-) TimerEvent: {}
+[6.701201] (ydlidar) CommandEnded: {'returncode': 0}
+[6.703776] (ydlidar) JobProgress: {'identifier': 'ydlidar', 'progress': 'build'}
+[6.707674] (ydlidar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/ros2_ws/build/ydlidar', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/ros2_ws/build/ydlidar', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.137.1 52753 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/ydlidar:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/ros2_ws/build/ydlidar'), ('SSH_CONNECTION', '192.168.137.1 52753 192.168.137.42 22'), ('PYTHONPATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/ydlidar:/opt/ros/humble')]), 'shell': False}
+[6.739281] (-) TimerEvent: {}
+[6.840228] (-) TimerEvent: {}
+[6.938318] (ydlidar) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/list_ports_linux.cpp.o\x1b[0m\n'}
+[6.939668] (ydlidar) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_serial.cpp.o\x1b[0m\n'}
+[6.940491] (-) TimerEvent: {}
+[6.941900] (ydlidar) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_timer.cpp.o\x1b[0m\n'}
+[6.943344] (ydlidar) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o\x1b[0m\n'}
+[6.945139] (ydlidar) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o\x1b[0m\n'}
+[6.946968] (ydlidar) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o\x1b[0m\n'}
+[6.953218] (ydlidar) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o\x1b[0m\n'}
+[6.957296] (ydlidar) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o\x1b[0m\n'}
+[7.040842] (-) TimerEvent: {}
+[7.141979] (-) TimerEvent: {}
+[7.243030] (-) TimerEvent: {}
+[7.260662] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/lock.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kfhs_lock\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.261888] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/lock.c:199:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.262519] (ydlidar) StderrLine: {'line': b'  199 | int fhs_lock(const char *filename, \x1b[01;35m\x1b[Kint pid\x1b[m\x1b[K) {\n'}
+[7.263172] (ydlidar) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[7.264261] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/lock.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kuucp_lock\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.264871] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/lock.c:281:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.265438] (ydlidar) StderrLine: {'line': b'  281 | int uucp_lock(const char *filename, \x1b[01;35m\x1b[Kint pid\x1b[m\x1b[K) {\n'}
+[7.266070] (ydlidar) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[7.343309] (-) TimerEvent: {}
+[7.444434] (-) TimerEvent: {}
+[7.545596] (-) TimerEvent: {}
+[7.612386] (ydlidar) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o\x1b[0m\n'}
+[7.631219] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.645894] (-) TimerEvent: {}
+[7.747937] (-) TimerEvent: {}
+[7.814664] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[7.820718] (micro_ros_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[7.848223] (-) TimerEvent: {}
+[7.949555] (-) TimerEvent: {}
+[8.018718] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[8.021188] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.022578] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.023837] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[8.049800] (-) TimerEvent: {}
+[8.151015] (-) TimerEvent: {}
+[8.201965] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[8.251333] (-) TimerEvent: {}
+[8.353330] (-) TimerEvent: {}
+[8.455643] (-) TimerEvent: {}
+[8.459424] (ydlidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/timer.h:2\x1b[m\x1b[K,\n'}
+[8.461157] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/impl/unix/unix_timer.cpp:2\x1b[m\x1b[K:\n'}
+[8.462659] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool ydlidar::fileExists(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.464092] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_ino\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[8.465507] (ydlidar) StderrLine: {'line': b'  240 |   struct stat info = {0\x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[8.466865] (ydlidar) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.468267] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_mode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[8.469523] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_nlink\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[8.470805] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_uid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[8.472216] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_gid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[8.473592] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_rdev\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[8.474982] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__pad1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[8.476474] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_size\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[8.487215] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_blksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[8.488201] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__pad2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[8.488948] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_blocks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[8.489651] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_atim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[8.490451] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_mtim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[8.491207] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_ctim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[8.491914] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__glibc_reserved\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[8.494489] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[8.530533] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.550076] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.555956] (-) TimerEvent: {}
+[8.584936] (micro_ros_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.656264] (-) TimerEvent: {}
+[8.757713] (-) TimerEvent: {}
+[8.785891] (micro_ros_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[8.858025] (-) TimerEvent: {}
+[8.860988] (micro_ros_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/ros2_ws/build/micro_ros_msgs\n'}
+[8.908806] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[8.911005] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[8.911278] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/ros2_ws/build/micro_ros_msgs', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/ros2_ws/build/micro_ros_msgs', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.137.1 52753 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/ydlidar:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/ros2_ws/build/micro_ros_msgs'), ('SSH_CONNECTION', '192.168.137.1 52753 192.168.137.42 22'), ('PYTHONPATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/ydlidar:/opt/ros/humble')]), 'shell': False}
+[8.958299] (-) TimerEvent: {}
+[9.059627] (-) TimerEvent: {}
+[9.135350] (micro_ros_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[9.150454] (ydlidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/serial.h:9\x1b[m\x1b[K,\n'}
+[9.152297] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/impl/unix/unix_serial.h:9\x1b[m\x1b[K,\n'}
+[9.153104] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/impl/unix/unix_serial.cpp:39\x1b[m\x1b[K:\n'}
+[9.153906] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool ydlidar::fileExists(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.154597] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_ino\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.155319] (ydlidar) StderrLine: {'line': b'  240 |   struct stat info = {0\x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[9.155996] (ydlidar) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.156781] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_mode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.157594] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_nlink\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.158361] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_uid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.159153] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_gid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.159879] (-) TimerEvent: {}
+[9.160781] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_rdev\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.161930] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__pad1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.162788] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_size\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.163575] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_blksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.164327] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__pad2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.165065] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_blocks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.165912] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_atim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.166760] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_mtim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.167554] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_ctim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.168293] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__glibc_reserved\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.203286] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/impl/unix/unix_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool serial::Serial::SerialImpl::setCustomBaudRate(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.204536] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/impl/unix/unix_serial.cpp:1235:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[9.205483] (ydlidar) StderrLine: {'line': b' 1235 |   if (\x1b[01;35m\x1b[Kserial.custom_divisor * baudrate != serial.baud_base\x1b[m\x1b[K) {\n'}
+[9.206297] (ydlidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.260166] (-) TimerEvent: {}
+[9.334360] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[9.360459] (-) TimerEvent: {}
+[9.442711] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_micro_ros_msgs\n'}
+[9.460786] (-) TimerEvent: {}
+[9.484735] (ydlidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/serial.h:9\x1b[m\x1b[K,\n'}
+[9.486367] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/impl/unix/list_ports_linux.cpp:26\x1b[m\x1b[K:\n'}
+[9.487859] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool ydlidar::fileExists(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.489322] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_ino\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.490825] (ydlidar) StderrLine: {'line': b'  240 |   struct stat info = {0\x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[9.492322] (ydlidar) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.494074] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_mode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.495913] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_nlink\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.497644] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_uid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.499179] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_gid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.500685] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_rdev\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.502231] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__pad1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.503752] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_size\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.506799] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_blksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.507914] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__pad2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.508800] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_blocks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.509575] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_atim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.510307] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_mtim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.511155] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_ctim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.526775] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__glibc_reserved\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[9.546823] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/impl/unix/list_ports_linux.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.548191] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/impl/unix/list_ports_linux.cpp:58:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kglob_retval\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[9.549539] (ydlidar) StderrLine: {'line': b'   58 |   int \x1b[01;35m\x1b[Kglob_retval\x1b[m\x1b[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);\n'}
+[9.550811] (ydlidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.561034] (-) TimerEvent: {}
+[9.663156] (-) TimerEvent: {}
+[9.765081] (-) TimerEvent: {}
+[9.866998] (-) TimerEvent: {}
+[9.968911] (-) TimerEvent: {}
+[10.071178] (-) TimerEvent: {}
+[10.098508] (ydlidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/serial.h:9\x1b[m\x1b[K,\n'}
+[10.100528] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/ydlidar_driver.h:54\x1b[m\x1b[K,\n'}
+[10.102133] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/CYdLidar.h:36\x1b[m\x1b[K,\n'}
+[10.102982] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/CYdLidar.cpp:34\x1b[m\x1b[K:\n'}
+[10.103757] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool ydlidar::fileExists(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.104530] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_ino\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.105285] (ydlidar) StderrLine: {'line': b'  240 |   struct stat info = {0\x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[10.106013] (ydlidar) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.106831] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_mode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.107619] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_nlink\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.108442] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_uid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.109176] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_gid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.109988] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_rdev\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.110837] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__pad1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.111593] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_size\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.112340] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_blksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.113085] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__pad2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.113820] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_blocks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.114551] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_atim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.115296] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_mtim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.116058] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_ctim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.116925] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__glibc_reserved\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.136795] (ydlidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/ydlidar_driver.h:56\x1b[m\x1b[K,\n'}
+[10.137948] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/CYdLidar.h:36\x1b[m\x1b[K,\n'}
+[10.138871] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/CYdLidar.cpp:34\x1b[m\x1b[K:\n'}
+[10.139693] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/thread.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic Thread Thread::createThread(thread_proc_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.140460] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/thread.h:43:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcast between incompatible function types from \xe2\x80\x98\x1b[01m\x1b[Kthread_proc_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int (*)(void*)\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kvoid* (*)(void*)\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wcast-function-type\x1b[m\x1b[K]\n'}
+[10.141231] (ydlidar) StderrLine: {'line': b'   43 |     pthread_create((pthread_t *)&thread_._handle, NULL, \x1b[01;35m\x1b[K(void *(*)(void *))proc\x1b[m\x1b[K,\n'}
+[10.141940] (ydlidar) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.159661] (ydlidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/ydlidar_driver.h:58\x1b[m\x1b[K,\n'}
+[10.161229] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/CYdLidar.h:36\x1b[m\x1b[K,\n'}
+[10.162104] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/CYdLidar.cpp:34\x1b[m\x1b[K:\n'}
+[10.162880] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/help_info.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool ydlidar::isSupportMotorCtrl(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.163627] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/help_info.h:414:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kret\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[10.164441] (ydlidar) StderrLine: {'line': b'  414 |   bool \x1b[01;35m\x1b[Kret\x1b[m\x1b[K = false;\n'}
+[10.165183] (ydlidar) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.171455] (-) TimerEvent: {}
+[10.272692] (-) TimerEvent: {}
+[10.317047] (ydlidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/serial.h:9\x1b[m\x1b[K,\n'}
+[10.318588] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/serial.cpp:11\x1b[m\x1b[K:\n'}
+[10.319456] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool ydlidar::fileExists(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.320217] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_ino\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.321017] (ydlidar) StderrLine: {'line': b'  240 |   struct stat info = {0\x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[10.321717] (ydlidar) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.322410] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_mode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.323138] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_nlink\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.323848] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_uid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.324575] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_gid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.325299] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_rdev\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.326059] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__pad1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.326863] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_size\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.327641] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_blksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.328338] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__pad2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.328999] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_blocks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.329657] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_atim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.330366] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_mtim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.331032] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_ctim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.331684] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__glibc_reserved\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.372981] (-) TimerEvent: {}
+[10.474461] (-) TimerEvent: {}
+[10.575619] (-) TimerEvent: {}
+[10.658782] (ydlidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/serial.h:9\x1b[m\x1b[K,\n'}
+[10.660349] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/ydlidar_driver.h:54\x1b[m\x1b[K,\n'}
+[10.661549] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/ydlidar_driver.cpp:34\x1b[m\x1b[K:\n'}
+[10.662210] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool ydlidar::fileExists(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.662840] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_ino\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.663481] (ydlidar) StderrLine: {'line': b'  240 |   struct stat info = {0\x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[10.664086] (ydlidar) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.664661] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_mode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.665273] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_nlink\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.665883] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_uid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.666623] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_gid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.667392] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_rdev\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.668055] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__pad1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.668716] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_size\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.669382] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_blksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.670052] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__pad2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.670733] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_blocks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.671402] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_atim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.672090] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_mtim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.672853] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_ctim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.673687] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__glibc_reserved\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.682693] (ydlidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/ydlidar_driver.h:56\x1b[m\x1b[K,\n'}
+[10.683780] (-) TimerEvent: {}
+[10.684507] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/ydlidar_driver.cpp:34\x1b[m\x1b[K:\n'}
+[10.685207] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/thread.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic Thread Thread::createThread(thread_proc_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.685864] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/thread.h:43:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcast between incompatible function types from \xe2\x80\x98\x1b[01m\x1b[Kthread_proc_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int (*)(void*)\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kvoid* (*)(void*)\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wcast-function-type\x1b[m\x1b[K]\n'}
+[10.686441] (ydlidar) StderrLine: {'line': b'   43 |     pthread_create((pthread_t *)&thread_._handle, NULL, \x1b[01;35m\x1b[K(void *(*)(void *))proc\x1b[m\x1b[K,\n'}
+[10.687095] (ydlidar) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.717738] (ydlidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/ydlidar_driver.h:58\x1b[m\x1b[K,\n'}
+[10.718996] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/ydlidar_driver.cpp:34\x1b[m\x1b[K:\n'}
+[10.720051] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/help_info.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool ydlidar::isSupportMotorCtrl(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.721171] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/help_info.h:414:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kret\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[10.722441] (ydlidar) StderrLine: {'line': b'  414 |   bool \x1b[01;35m\x1b[Kret\x1b[m\x1b[K = false;\n'}
+[10.723573] (ydlidar) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.784063] (-) TimerEvent: {}
+[10.885239] (-) TimerEvent: {}
+[10.977639] (ydlidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/common.h:47\x1b[m\x1b[K,\n'}
+[10.978900] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/serial.cpp:12\x1b[m\x1b[K:\n'}
+[10.979591] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/thread.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic Thread Thread::createThread(thread_proc_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.980195] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/thread.h:43:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcast between incompatible function types from \xe2\x80\x98\x1b[01m\x1b[Kthread_proc_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int (*)(void*)\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kvoid* (*)(void*)\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wcast-function-type\x1b[m\x1b[K]\n'}
+[10.980758] (ydlidar) StderrLine: {'line': b'   43 |     pthread_create((pthread_t *)&thread_._handle, NULL, \x1b[01;35m\x1b[K(void *(*)(void *))proc\x1b[m\x1b[K,\n'}
+[10.981294] (ydlidar) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.985504] (-) TimerEvent: {}
+[11.086631] (-) TimerEvent: {}
+[11.145055] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/ydlidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kresult_t ydlidar::YDlidarDriver::waitPackage(node_info*, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.146333] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/ydlidar_driver.cpp:992:95:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around arithmetic in operand of \xe2\x80\x98\x1b[01m\x1b[K|\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wparentheses\x1b[m\x1b[K]\n'}
+[11.147521] (ydlidar) StderrLine: {'line': b'  992 |                                          \x1b[01;35m\x1b[Kpackages.packageSampleDistance[package_Sample_Index] &\x1b[m\x1b[K\n'}
+[11.148569] (ydlidar) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.149515] (ydlidar) StderrLine: {'line': b'  993 | \x1b[01;35m\x1b[K                                         0x0003\x1b[m\x1b[K)) << LIDAR_RESP_MEASUREMENT_QUALITY_SHIFT;\n'}
+[11.150449] (ydlidar) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K~~~~~~\x1b[m\x1b[K                                                \n'}
+[11.186837] (-) TimerEvent: {}
+[11.287938] (-) TimerEvent: {}
+[11.349892] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/CYdLidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool CYdLidar::doProcessSimple(LaserScan&, bool&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.350995] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/CYdLidar.cpp:216:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[11.351748] (ydlidar) StderrLine: {'line': b'  216 |     for (int i = 0; \x1b[01;35m\x1b[Ki < count\x1b[m\x1b[K; i++) {\n'}
+[11.352374] (ydlidar) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~~~\x1b[m\x1b[K\n'}
+[11.388207] (-) TimerEvent: {}
+[11.489270] (-) TimerEvent: {}
+[11.590284] (-) TimerEvent: {}
+[11.691468] (-) TimerEvent: {}
+[11.792553] (-) TimerEvent: {}
+[11.893651] (-) TimerEvent: {}
+[11.994778] (-) TimerEvent: {}
+[12.095875] (-) TimerEvent: {}
+[12.115327] (micro_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[12.122501] (micro_ros_msgs) StdoutLine: {'line': b'creating micro_ros_msgs.egg-info\n'}
+[12.125732] (micro_ros_msgs) StdoutLine: {'line': b'writing micro_ros_msgs.egg-info/PKG-INFO\n'}
+[12.129224] (micro_ros_msgs) StdoutLine: {'line': b'writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt\n'}
+[12.132895] (micro_ros_msgs) StdoutLine: {'line': b'writing top-level names to micro_ros_msgs.egg-info/top_level.txt\n'}
+[12.136083] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[12.152764] (micro_ros_msgs) StdoutLine: {'line': b"reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[12.158260] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[12.196164] (-) TimerEvent: {}
+[12.232462] (ydlidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/ydlidar_driver.h:58\x1b[m\x1b[K,\n'}
+[12.234084] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/CYdLidar.h:36\x1b[m\x1b[K,\n'}
+[12.234841] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/src/CYdLidar.cpp:34\x1b[m\x1b[K:\n'}
+[12.235524] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/help_info.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool ydlidar::ParseLaserDebugInfo(const LaserDebug&, device_info&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.236244] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/help_info.h:679:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksprintf\x1b[m\x1b[K\xe2\x80\x99 writing a terminating nul past the end of the destination [\x1b[01;35m\x1b[K-Wformat-overflow=\x1b[m\x1b[K]\n'}
+[12.237102] (ydlidar) StderrLine: {'line': b'  679 |       sprintf(reinterpret_cast<char *>(value.serialnum + 8), "%08d\x1b[01;35m\x1b[K"\x1b[m\x1b[K, Number);\n'}
+[12.237792] (ydlidar) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.238533] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/help_info.h:679:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksprintf\x1b[m\x1b[K\xe2\x80\x99 output 9 bytes into a destination of size 8\n'}
+[12.239226] (ydlidar) StderrLine: {'line': b'  679 |       \x1b[01;36m\x1b[Ksprintf(reinterpret_cast<char *>(value.serialnum + 8), "%08d", Number)\x1b[m\x1b[K;\n'}
+[12.239904] (ydlidar) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.296484] (-) TimerEvent: {}
+[12.397753] (-) TimerEvent: {}
+[12.421184] (micro_ros_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__functions.c.o\x1b[0m\n'}
+[12.431013] (micro_ros_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__functions.c.o\x1b[0m\n'}
+[12.465444] (micro_ros_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__functions.c.o\x1b[0m\n'}
+[12.494530] (micro_ros_msgs) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_build_micro_ros_msgs_egg\n'}
+[12.498046] (-) TimerEvent: {}
+[12.600114] (-) TimerEvent: {}
+[12.702338] (-) TimerEvent: {}
+[12.804491] (-) TimerEvent: {}
+[12.816648] (micro_ros_msgs) StdoutLine: {'line': b'[ 10%] Built target micro_ros_msgs__cpp\n'}
+[12.841012] (micro_ros_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libmicro_ros_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[12.865505] (micro_ros_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[12.866629] (micro_ros_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.867440] (micro_ros_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.904751] (-) TimerEvent: {}
+[13.005953] (-) TimerEvent: {}
+[13.085429] (micro_ros_msgs) StdoutLine: {'line': b'[ 19%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[13.106234] (-) TimerEvent: {}
+[13.162153] (micro_ros_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.206560] (-) TimerEvent: {}
+[13.212589] (micro_ros_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[13.223589] (micro_ros_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.306766] (-) TimerEvent: {}
+[13.409624] (-) TimerEvent: {}
+[13.518784] (-) TimerEvent: {}
+[13.619990] (-) TimerEvent: {}
+[13.721054] (-) TimerEvent: {}
+[13.822507] (-) TimerEvent: {}
+[13.923675] (-) TimerEvent: {}
+[14.024804] (-) TimerEvent: {}
+[14.125840] (-) TimerEvent: {}
+[14.226875] (-) TimerEvent: {}
+[14.327870] (-) TimerEvent: {}
+[14.428988] (-) TimerEvent: {}
+[14.530102] (-) TimerEvent: {}
+[14.631220] (-) TimerEvent: {}
+[14.732414] (-) TimerEvent: {}
+[14.833564] (-) TimerEvent: {}
+[14.934766] (-) TimerEvent: {}
+[15.035886] (-) TimerEvent: {}
+[15.137855] (-) TimerEvent: {}
+[15.186876] (micro_ros_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/graph__type_support.cpp.o\x1b[0m\n'}
+[15.222524] (micro_ros_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/node__type_support.cpp.o\x1b[0m\n'}
+[15.231714] (micro_ros_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[15.238153] (-) TimerEvent: {}
+[15.339334] (-) TimerEvent: {}
+[15.440423] (-) TimerEvent: {}
+[15.541663] (-) TimerEvent: {}
+[15.642965] (-) TimerEvent: {}
+[15.669649] (micro_ros_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/graph__type_support.cpp.o\x1b[0m\n'}
+[15.700756] (micro_ros_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/graph__type_support.cpp.o\x1b[0m\n'}
+[15.743265] (-) TimerEvent: {}
+[15.822681] (micro_ros_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/graph__type_support.cpp.o\x1b[0m\n'}
+[15.843563] (-) TimerEvent: {}
+[15.944786] (-) TimerEvent: {}
+[16.005022] (micro_ros_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/node__type_support.cpp.o\x1b[0m\n'}
+[16.045079] (-) TimerEvent: {}
+[16.103489] (micro_ros_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/graph__type_support.c.o\x1b[0m\n'}
+[16.145371] (-) TimerEvent: {}
+[16.246985] (-) TimerEvent: {}
+[16.348220] (-) TimerEvent: {}
+[16.368279] (micro_ros_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[16.383475] (micro_ros_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/node__type_support.c.o\x1b[0m\n'}
+[16.448519] (-) TimerEvent: {}
+[16.549808] (-) TimerEvent: {}
+[16.652075] (-) TimerEvent: {}
+[16.669477] (micro_ros_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/entity__type_support.c.o\x1b[0m\n'}
+[16.751475] (micro_ros_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[16.752478] (-) TimerEvent: {}
+[16.762427] (micro_ros_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/graph__type_support_c.cpp.o\x1b[0m\n'}
+[16.852818] (-) TimerEvent: {}
+[16.955009] (-) TimerEvent: {}
+[17.042888] (micro_ros_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking C shared library libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[17.055307] (-) TimerEvent: {}
+[17.157510] (-) TimerEvent: {}
+[17.226304] (micro_ros_msgs) StdoutLine: {'line': b'[ 55%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[17.257804] (-) TimerEvent: {}
+[17.286828] (micro_ros_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/node__type_support_c.cpp.o\x1b[0m\n'}
+[17.322065] (micro_ros_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/entity__type_support.cpp.o\x1b[0m\n'}
+[17.331930] (micro_ros_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/node__type_support.cpp.o\x1b[0m\n'}
+[17.337220] (micro_ros_msgs) StdoutLine: {'line': b'[ 61%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[17.358100] (-) TimerEvent: {}
+[17.460296] (-) TimerEvent: {}
+[17.472203] (micro_ros_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/node__type_support.cpp.o\x1b[0m\n'}
+[17.560577] (-) TimerEvent: {}
+[17.590990] (micro_ros_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[17.660876] (-) TimerEvent: {}
+[17.763153] (-) TimerEvent: {}
+[17.865466] (-) TimerEvent: {}
+[17.967824] (-) TimerEvent: {}
+[18.069416] (micro_ros_msgs) StdoutLine: {'line': b'[ 65%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[18.070797] (-) TimerEvent: {}
+[18.173213] (-) TimerEvent: {}
+[18.201955] (micro_ros_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/entity__type_support_c.cpp.o\x1b[0m\n'}
+[18.273512] (-) TimerEvent: {}
+[18.375622] (-) TimerEvent: {}
+[18.477696] (-) TimerEvent: {}
+[18.599508] (-) TimerEvent: {}
+[18.700777] (-) TimerEvent: {}
+[18.801959] (-) TimerEvent: {}
+[18.903140] (-) TimerEvent: {}
+[19.004360] (-) TimerEvent: {}
+[19.105781] (-) TimerEvent: {}
+[19.207913] (-) TimerEvent: {}
+[19.310023] (-) TimerEvent: {}
+[19.319885] (micro_ros_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/entity__type_support.cpp.o\x1b[0m\n'}
+[19.410322] (-) TimerEvent: {}
+[19.512435] (-) TimerEvent: {}
+[19.614527] (-) TimerEvent: {}
+[19.716591] (-) TimerEvent: {}
+[19.818648] (-) TimerEvent: {}
+[19.920771] (-) TimerEvent: {}
+[20.022890] (-) TimerEvent: {}
+[20.125023] (-) TimerEvent: {}
+[20.227178] (-) TimerEvent: {}
+[20.329262] (-) TimerEvent: {}
+[20.430450] (-) TimerEvent: {}
+[20.531650] (-) TimerEvent: {}
+[20.632949] (-) TimerEvent: {}
+[20.715024] (micro_ros_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[20.733221] (-) TimerEvent: {}
+[20.834327] (-) TimerEvent: {}
+[20.936342] (-) TimerEvent: {}
+[21.038454] (-) TimerEvent: {}
+[21.122960] (micro_ros_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[21.138704] (-) TimerEvent: {}
+[21.201658] (micro_ros_msgs) StdoutLine: {'line': b'[ 74%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[21.238974] (-) TimerEvent: {}
+[21.340786] (-) TimerEvent: {}
+[21.442589] (-) TimerEvent: {}
+[21.544023] (-) TimerEvent: {}
+[21.645036] (-) TimerEvent: {}
+[21.650796] (micro_ros_msgs) StdoutLine: {'line': b'[ 74%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[21.745260] (-) TimerEvent: {}
+[21.846225] (-) TimerEvent: {}
+[21.947208] (-) TimerEvent: {}
+[22.048090] (-) TimerEvent: {}
+[22.148973] (-) TimerEvent: {}
+[22.249860] (-) TimerEvent: {}
+[22.350769] (-) TimerEvent: {}
+[22.389863] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[22.450974] (-) TimerEvent: {}
+[22.552004] (-) TimerEvent: {}
+[22.652989] (-) TimerEvent: {}
+[22.753924] (-) TimerEvent: {}
+[22.854856] (-) TimerEvent: {}
+[22.873423] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[22.955080] (-) TimerEvent: {}
+[22.957503] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs\n'}
+[23.044567] (micro_ros_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[23.055268] (-) TimerEvent: {}
+[23.156163] (-) TimerEvent: {}
+[23.257034] (-) TimerEvent: {}
+[23.357925] (-) TimerEvent: {}
+[23.458793] (-) TimerEvent: {}
+[23.559674] (-) TimerEvent: {}
+[23.660935] (-) TimerEvent: {}
+[23.761876] (-) TimerEvent: {}
+[23.862765] (-) TimerEvent: {}
+[23.963602] (-) TimerEvent: {}
+[24.064417] (-) TimerEvent: {}
+[24.165272] (-) TimerEvent: {}
+[24.266143] (-) TimerEvent: {}
+[24.367048] (-) TimerEvent: {}
+[24.467901] (-) TimerEvent: {}
+[24.568752] (-) TimerEvent: {}
+[24.669620] (-) TimerEvent: {}
+[24.770527] (-) TimerEvent: {}
+[24.871387] (-) TimerEvent: {}
+[24.972249] (-) TimerEvent: {}
+[25.073114] (-) TimerEvent: {}
+[25.174008] (-) TimerEvent: {}
+[25.257007] (ydlidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/serial.h:9\x1b[m\x1b[K,\n'}
+[25.258245] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/ydlidar_driver.h:54\x1b[m\x1b[K,\n'}
+[25.258823] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/CYdLidar.h:36\x1b[m\x1b[K,\n'}
+[25.259324] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/src/ydlidar_node.cpp:26\x1b[m\x1b[K:\n'}
+[25.259795] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool ydlidar::fileExists(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.260257] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_ino\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[25.260717] (ydlidar) StderrLine: {'line': b'  240 |   struct stat info = {0\x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[25.261161] (ydlidar) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[25.261596] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_mode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[25.262037] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_nlink\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[25.262471] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_uid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[25.262906] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_gid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[25.263412] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_rdev\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[25.263857] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__pad1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[25.264349] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_size\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[25.264842] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_blksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[25.265298] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__pad2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[25.265751] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_blocks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[25.266197] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_atim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[25.266751] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_mtim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[25.267229] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_ctim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[25.267675] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__glibc_reserved\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[25.274143] (-) TimerEvent: {}
+[25.276003] (ydlidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/ydlidar_driver.h:56\x1b[m\x1b[K,\n'}
+[25.276811] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/CYdLidar.h:36\x1b[m\x1b[K,\n'}
+[25.277375] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/src/ydlidar_node.cpp:26\x1b[m\x1b[K:\n'}
+[25.277916] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/thread.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic Thread Thread::createThread(thread_proc_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.278393] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/thread.h:43:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcast between incompatible function types from \xe2\x80\x98\x1b[01m\x1b[Kthread_proc_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int (*)(void*)\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kvoid* (*)(void*)\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wcast-function-type\x1b[m\x1b[K]\n'}
+[25.278869] (ydlidar) StderrLine: {'line': b'   43 |     pthread_create((pthread_t *)&thread_._handle, NULL, \x1b[01;35m\x1b[K(void *(*)(void *))proc\x1b[m\x1b[K,\n'}
+[25.279314] (ydlidar) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.305137] (ydlidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/ydlidar_driver.h:58\x1b[m\x1b[K,\n'}
+[25.305929] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/CYdLidar.h:36\x1b[m\x1b[K,\n'}
+[25.306473] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/src/ydlidar_node.cpp:26\x1b[m\x1b[K:\n'}
+[25.307073] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/help_info.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool ydlidar::isSupportMotorCtrl(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.307560] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/sdk/include/help_info.h:414:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kret\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[25.308010] (ydlidar) StderrLine: {'line': b'  414 |   bool \x1b[01;35m\x1b[Kret\x1b[m\x1b[K = false;\n'}
+[25.308438] (ydlidar) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[25.374311] (-) TimerEvent: {}
+[25.455136] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/src/ydlidar_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.455901] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot/src/ydlidar_node.cpp:222:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<LaserPoint>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[25.456555] (ydlidar) StderrLine: {'line': b'  222 |       for (int i = 0; \x1b[01;35m\x1b[Ki < scan.points.size()\x1b[m\x1b[K; i++)\n'}
+[25.457070] (ydlidar) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.474473] (-) TimerEvent: {}
+[25.575326] (-) TimerEvent: {}
+[25.676218] (-) TimerEvent: {}
+[25.777165] (-) TimerEvent: {}
+[25.878022] (-) TimerEvent: {}
+[25.978876] (-) TimerEvent: {}
+[26.079712] (-) TimerEvent: {}
+[26.180537] (-) TimerEvent: {}
+[26.281379] (-) TimerEvent: {}
+[26.382216] (-) TimerEvent: {}
+[26.483084] (-) TimerEvent: {}
+[26.584094] (-) TimerEvent: {}
+[26.664882] (micro_ros_msgs) StdoutLine: {'line': b'[ 78%] Built target micro_ros_msgs__py\n'}
+[26.684292] (-) TimerEvent: {}
+[26.754193] (micro_ros_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_entity_s.c.o\x1b[0m\n'}
+[26.755191] (micro_ros_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_graph_s.c.o\x1b[0m\n'}
+[26.755862] (micro_ros_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_node_s.c.o\x1b[0m\n'}
+[26.784565] (-) TimerEvent: {}
+[26.885674] (-) TimerEvent: {}
+[26.986731] (-) TimerEvent: {}
+[27.087740] (-) TimerEvent: {}
+[27.188795] (-) TimerEvent: {}
+[27.289800] (-) TimerEvent: {}
+[27.390881] (-) TimerEvent: {}
+[27.401772] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[27.491093] (-) TimerEvent: {}
+[27.592089] (-) TimerEvent: {}
+[27.631884] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] Built target micro_ros_msgs__rosidl_generator_py\n'}
+[27.692334] (-) TimerEvent: {}
+[27.721164] (micro_ros_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[27.722093] (micro_ros_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[27.722767] (micro_ros_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[27.792580] (-) TimerEvent: {}
+[27.893612] (-) TimerEvent: {}
+[27.994597] (-) TimerEvent: {}
+[28.095559] (-) TimerEvent: {}
+[28.196577] (-) TimerEvent: {}
+[28.297613] (-) TimerEvent: {}
+[28.299700] (micro_ros_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[28.301029] (micro_ros_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[28.312122] (micro_ros_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[28.397870] (-) TimerEvent: {}
+[28.473952] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext\n'}
+[28.478685] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[28.498085] (-) TimerEvent: {}
+[28.503434] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[28.558279] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[28.574170] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[28.598285] (-) TimerEvent: {}
+[28.614852] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/ros2_ws/build/micro_ros_msgs'], 'cwd': '/home/sunrise/ros2_ws/build/micro_ros_msgs', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.137.1 52753 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/ydlidar:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/ros2_ws/build/micro_ros_msgs'), ('SSH_CONNECTION', '192.168.137.1 52753 192.168.137.42 22'), ('PYTHONPATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/ydlidar:/opt/ros/humble')]), 'shell': False}
+[28.653538] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.654628] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[28.655450] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[28.656193] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[28.657169] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[28.658033] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[28.658807] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[28.659531] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[28.660320] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[28.661089] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[28.661876] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c\n'}
+[28.662649] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[28.663377] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[28.664196] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[28.664849] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[28.665587] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c\n'}
+[28.666312] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c\n'}
+[28.667018] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h\n'}
+[28.667646] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h\n'}
+[28.668452] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h\n'}
+[28.669060] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[28.669852] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[28.670667] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[28.671364] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[28.672136] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so" to ""\n'}
+[28.672854] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[28.673490] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[28.674091] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[28.675016] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[28.675777] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[28.676457] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[28.677197] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[28.677981] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[28.678688] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[28.679385] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[28.679981] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[28.680647] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[28.681339] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[28.681927] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[28.682784] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[28.683507] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[28.684183] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[28.684848] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[28.685580] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[28.686255] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[28.687396] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[28.688222] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[28.688980] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so" to ""\n'}
+[28.689800] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[28.690507] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[28.691287] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp\n'}
+[28.692098] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[28.692911] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[28.693603] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.hpp\n'}
+[28.694304] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[28.695022] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[28.695643] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[28.696246] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[28.697002] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.hpp\n'}
+[28.697890] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[28.698552] (-) TimerEvent: {}
+[28.699314] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[28.700254] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[28.701155] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.hpp\n'}
+[28.701942] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[28.702583] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp\n'}
+[28.703189] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[28.703886] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp\n'}
+[28.704594] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[28.705186] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[28.705943] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[28.706660] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[28.707397] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[28.708119] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps\n'}
+[28.708814] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[28.709557] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[28.710257] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[28.710988] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[28.711677] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[28.712427] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[28.713116] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[28.713807] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp\n'}
+[28.714546] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[28.715246] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[28.715986] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp\n'}
+[28.716774] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[28.717411] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp\n'}
+[28.718001] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[28.718702] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[28.719483] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[28.720175] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[28.720779] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[28.721349] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[28.721961] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info\n'}
+[28.722536] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/PKG-INFO\n'}
+[28.723096] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[28.723667] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/top_level.txt\n'}
+[28.724225] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[28.724773] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs\n'}
+[28.725362] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[28.725929] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[28.726652] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[28.727276] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[28.727860] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[28.728445] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py\n'}
+[28.729012] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[28.729575] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[28.730125] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg\n'}
+[28.730666] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[28.731199] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py\n'}
+[28.731744] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py\n'}
+[28.732272] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[28.732803] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py\n'}
+[28.733343] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py\n'}
+[28.733876] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[28.798748] (-) TimerEvent: {}
+[28.899690] (-) TimerEvent: {}
+[28.944698] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...\n"}
+[28.945573] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py'...\n"}
+[28.946206] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...\n"}
+[28.946865] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py'...\n"}
+[28.947443] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py'...\n"}
+[28.948056] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py'...\n"}
+[28.948634] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py'...\n"}
+[28.993982] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[28.995373] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[28.996300] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[28.997826] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[28.998741] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[28.999800] (-) TimerEvent: {}
+[29.000629] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[29.001362] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[29.002236] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so" to ""\n'}
+[29.003100] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[29.003835] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[29.004551] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[29.005577] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[29.006438] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[29.007273] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[29.008034] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[29.008773] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[29.009504] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[29.010228] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[29.010949] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[29.011682] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[29.012481] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[29.013204] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[29.013934] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[29.014647] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[29.015271] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[29.016067] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[29.016856] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[29.017608] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[29.018354] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[29.019119] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[29.019871] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[29.020601] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[29.021335] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[29.022071] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[29.022803] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[29.023533] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[29.024266] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[29.025004] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[29.025745] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[29.026460] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[29.027258] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[29.028043] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake\n'}
+[29.028776] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[29.029511] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[29.030248] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[29.030997] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[29.031733] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[29.032470] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[29.033210] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[29.033950] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[29.034781] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[29.035528] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[29.036164] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[29.045222] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[29.100509] (-) TimerEvent: {}
+[29.199157] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[29.205875] (-) TimerEvent: {}
+[29.206689] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[29.238996] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[29.241346] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/ros2_ws/src/micro-ROS-Agent/micro_ros_agent', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/ros2_ws/install/micro_ros_agent'], 'cwd': '/home/sunrise/ros2_ws/build/micro_ros_agent', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.137.1 52753 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/ydlidar:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/ros2_ws/build/micro_ros_agent'), ('SSH_CONNECTION', '192.168.137.1 52753 192.168.137.42 22'), ('PYTHONPATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/ydlidar:/opt/ros/humble')]), 'shell': False}
+[29.306141] (-) TimerEvent: {}
+[29.407284] (-) TimerEvent: {}
+[29.508365] (-) TimerEvent: {}
+[29.571697] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[29.602328] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[29.608534] (-) TimerEvent: {}
+[29.709575] (-) TimerEvent: {}
+[29.810684] (-) TimerEvent: {}
+[29.911659] (-) TimerEvent: {}
+[29.953317] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[29.999925] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[30.001073] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[30.003094] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[30.011861] (-) TimerEvent: {}
+[30.112922] (-) TimerEvent: {}
+[30.213978] (-) TimerEvent: {}
+[30.298157] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[30.314165] (-) TimerEvent: {}
+[30.327105] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[30.414398] (-) TimerEvent: {}
+[30.515515] (-) TimerEvent: {}
+[30.616660] (-) TimerEvent: {}
+[30.717715] (-) TimerEvent: {}
+[30.727266] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[30.775703] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[30.777002] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[30.779507] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[30.817909] (-) TimerEvent: {}
+[30.918902] (-) TimerEvent: {}
+[30.941826] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[30.958520] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[30.965079] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/ros2_ws/build/micro_ros_agent\n'}
+[30.990738] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[30.993337] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[30.994672] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/ros2_ws/build/micro_ros_agent', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/ros2_ws/build/micro_ros_agent', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.137.1 52753 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/ydlidar:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/ros2_ws/build/micro_ros_agent'), ('SSH_CONNECTION', '192.168.137.1 52753 192.168.137.42 22'), ('PYTHONPATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/ydlidar:/opt/ros/humble')]), 'shell': False}
+[31.019174] (-) TimerEvent: {}
+[31.120277] (-) TimerEvent: {}
+[31.194274] (micro_ros_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mCreating directories for 'xrceagent'\x1b[0m\n"}
+[31.220501] (-) TimerEvent: {}
+[31.321733] (-) TimerEvent: {}
+[31.422877] (-) TimerEvent: {}
+[31.507595] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'xrceagent'\x1b[0m\n"}
+[31.523055] (-) TimerEvent: {}
+[31.591748] (micro_ros_agent) StderrLine: {'line': b"Cloning into 'xrceagent'...\n"}
+[31.623289] (-) TimerEvent: {}
+[31.717161] (micro_ros_agent) StderrLine: {'line': b"fatal: unable to access 'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git/': Failed to connect to github.com port 443 after 87 ms: Connection refused\n"}
+[31.723472] (-) TimerEvent: {}
+[31.730758] (micro_ros_agent) StderrLine: {'line': b"Cloning into 'xrceagent'...\n"}
+[31.774610] (micro_ros_agent) StderrLine: {'line': b"fatal: unable to access 'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git/': Failed to connect to github.com port 443 after 7 ms: Connection refused\n"}
+[31.788198] (micro_ros_agent) StderrLine: {'line': b"Cloning into 'xrceagent'...\n"}
+[31.823682] (-) TimerEvent: {}
+[31.830169] (micro_ros_agent) StderrLine: {'line': b"fatal: unable to access 'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git/': Failed to connect to github.com port 443 after 4 ms: Connection refused\n"}
+[31.837218] (micro_ros_agent) StdoutLine: {'line': b'-- Had to git clone more than once:\n'}
+[31.837976] (micro_ros_agent) StderrLine: {'line': b'\x1b[31mCMake Error at /home/sunrise/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-gitclone.cmake:31 (message):\n'}
+[31.838532] (micro_ros_agent) StderrLine: {'line': b'  Failed to clone repository:\n'}
+[31.839015] (micro_ros_agent) StderrLine: {'line': b"  'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git'\n"}
+[31.839472] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[31.839916] (micro_ros_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[31.840352] (micro_ros_agent) StdoutLine: {'line': b'          3 times.\n'}
+[31.842856] (micro_ros_agent) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:99: agent/src/xrceagent-stamp/xrceagent-download] Error 1\n'}
+[31.843733] (micro_ros_agent) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2\n'}
+[31.844506] (micro_ros_agent) StderrLine: {'line': b'gmake: *** [Makefile:91: all] Error 2\n'}
+[31.853063] (micro_ros_agent) CommandEnded: {'returncode': 2}
+[31.882065] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 2}
+[31.923898] (-) TimerEvent: {}
+[32.024911] (-) TimerEvent: {}
+[32.125899] (-) TimerEvent: {}
+[32.226902] (-) TimerEvent: {}
+[32.327896] (-) TimerEvent: {}
+[32.428910] (-) TimerEvent: {}
+[32.529917] (-) TimerEvent: {}
+[32.630916] (-) TimerEvent: {}
+[32.731944] (-) TimerEvent: {}
+[32.832937] (-) TimerEvent: {}
+[32.933940] (-) TimerEvent: {}
+[33.034947] (-) TimerEvent: {}
+[33.135946] (-) TimerEvent: {}
+[33.236996] (-) TimerEvent: {}
+[33.337976] (-) TimerEvent: {}
+[33.438960] (-) TimerEvent: {}
+[33.539904] (-) TimerEvent: {}
+[33.640916] (-) TimerEvent: {}
+[33.742000] (-) TimerEvent: {}
+[33.842889] (-) TimerEvent: {}
+[33.943708] (-) TimerEvent: {}
+[34.044524] (-) TimerEvent: {}
+[34.145373] (-) TimerEvent: {}
+[34.246225] (-) TimerEvent: {}
+[34.347108] (-) TimerEvent: {}
+[34.447944] (-) TimerEvent: {}
+[34.548769] (-) TimerEvent: {}
+[34.649639] (-) TimerEvent: {}
+[34.750529] (-) TimerEvent: {}
+[34.851360] (-) TimerEvent: {}
+[34.952197] (-) TimerEvent: {}
+[35.053020] (-) TimerEvent: {}
+[35.153859] (-) TimerEvent: {}
+[35.254697] (-) TimerEvent: {}
+[35.355511] (-) TimerEvent: {}
+[35.456325] (-) TimerEvent: {}
+[35.557178] (-) TimerEvent: {}
+[35.658069] (-) TimerEvent: {}
+[35.758960] (-) TimerEvent: {}
+[35.859831] (-) TimerEvent: {}
+[35.960701] (-) TimerEvent: {}
+[36.061585] (-) TimerEvent: {}
+[36.162455] (-) TimerEvent: {}
+[36.263336] (-) TimerEvent: {}
+[36.364203] (-) TimerEvent: {}
+[36.465108] (-) TimerEvent: {}
+[36.565963] (-) TimerEvent: {}
+[36.666908] (-) TimerEvent: {}
+[36.767753] (-) TimerEvent: {}
+[36.868597] (-) TimerEvent: {}
+[36.969445] (-) TimerEvent: {}
+[37.070289] (-) TimerEvent: {}
+[37.171122] (-) TimerEvent: {}
+[37.271956] (-) TimerEvent: {}
+[37.372793] (-) TimerEvent: {}
+[37.473608] (-) TimerEvent: {}
+[37.574441] (-) TimerEvent: {}
+[37.675327] (-) TimerEvent: {}
+[37.776201] (-) TimerEvent: {}
+[37.877161] (-) TimerEvent: {}
+[37.921249] (ydlidar) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_node\x1b[0m\n'}
+[37.977341] (-) TimerEvent: {}
+[38.078204] (-) TimerEvent: {}
+[38.179138] (-) TimerEvent: {}
+[38.279995] (-) TimerEvent: {}
+[38.380918] (-) TimerEvent: {}
+[38.481845] (-) TimerEvent: {}
+[38.582865] (-) TimerEvent: {}
+[38.684000] (-) TimerEvent: {}
+[38.784938] (-) TimerEvent: {}
+[38.885820] (-) TimerEvent: {}
+[38.986723] (-) TimerEvent: {}
+[39.087801] (-) TimerEvent: {}
+[39.188847] (-) TimerEvent: {}
+[39.289779] (-) TimerEvent: {}
+[39.390717] (-) TimerEvent: {}
+[39.491691] (-) TimerEvent: {}
+[39.592574] (-) TimerEvent: {}
+[39.636376] (ydlidar) StdoutLine: {'line': b'[ 90%] Built target ydlidar_node\n'}
+[39.692751] (-) TimerEvent: {}
+[39.793662] (-) TimerEvent: {}
+[39.894562] (-) TimerEvent: {}
+[39.995437] (-) TimerEvent: {}
+[40.096336] (-) TimerEvent: {}
+[40.197287] (-) TimerEvent: {}
+[40.298169] (-) TimerEvent: {}
+[40.399043] (-) TimerEvent: {}
+[40.499919] (-) TimerEvent: {}
+[40.600815] (-) TimerEvent: {}
+[40.701712] (-) TimerEvent: {}
+[40.802584] (-) TimerEvent: {}
+[40.903446] (-) TimerEvent: {}
+[41.004305] (-) TimerEvent: {}
+[41.105156] (-) TimerEvent: {}
+[41.206059] (-) TimerEvent: {}
+[41.306998] (-) TimerEvent: {}
+[41.407853] (-) TimerEvent: {}
+[41.508736] (-) TimerEvent: {}
+[41.609646] (-) TimerEvent: {}
+[41.710556] (-) TimerEvent: {}
+[41.811433] (-) TimerEvent: {}
+[41.912319] (-) TimerEvent: {}
+[42.013189] (-) TimerEvent: {}
+[42.114066] (-) TimerEvent: {}
+[42.214935] (-) TimerEvent: {}
+[42.315806] (-) TimerEvent: {}
+[42.416688] (-) TimerEvent: {}
+[42.517569] (-) TimerEvent: {}
+[42.618487] (-) TimerEvent: {}
+[42.719401] (-) TimerEvent: {}
+[42.820266] (-) TimerEvent: {}
+[42.921131] (-) TimerEvent: {}
+[43.022010] (-) TimerEvent: {}
+[43.122872] (-) TimerEvent: {}
+[43.223728] (-) TimerEvent: {}
+[43.324611] (-) TimerEvent: {}
+[43.425488] (-) TimerEvent: {}
+[43.526373] (-) TimerEvent: {}
+[43.627380] (-) TimerEvent: {}
+[43.728318] (-) TimerEvent: {}
+[43.829270] (-) TimerEvent: {}
+[43.930171] (-) TimerEvent: {}
+[44.031042] (-) TimerEvent: {}
+[44.131899] (-) TimerEvent: {}
+[44.232751] (-) TimerEvent: {}
+[44.333589] (-) TimerEvent: {}
+[44.434436] (-) TimerEvent: {}
+[44.535302] (-) TimerEvent: {}
+[44.636213] (-) TimerEvent: {}
+[44.737188] (-) TimerEvent: {}
+[44.838058] (-) TimerEvent: {}
+[44.938916] (-) TimerEvent: {}
+[45.039759] (-) TimerEvent: {}
+[45.140611] (-) TimerEvent: {}
+[45.241484] (-) TimerEvent: {}
+[45.342377] (-) TimerEvent: {}
+[45.443238] (-) TimerEvent: {}
+[45.544102] (-) TimerEvent: {}
+[45.645035] (-) TimerEvent: {}
+[45.745958] (-) TimerEvent: {}
+[45.846938] (-) TimerEvent: {}
+[45.947805] (-) TimerEvent: {}
+[46.048663] (-) TimerEvent: {}
+[46.149534] (-) TimerEvent: {}
+[46.250375] (-) TimerEvent: {}
+[46.351227] (-) TimerEvent: {}
+[46.452082] (-) TimerEvent: {}
+[46.552913] (-) TimerEvent: {}
+[46.653814] (-) TimerEvent: {}
+[46.754741] (-) TimerEvent: {}
+[46.855639] (-) TimerEvent: {}
+[46.956547] (-) TimerEvent: {}
+[47.057405] (-) TimerEvent: {}
+[47.158265] (-) TimerEvent: {}
+[47.259136] (-) TimerEvent: {}
+[47.359990] (-) TimerEvent: {}
+[47.460856] (-) TimerEvent: {}
+[47.561737] (-) TimerEvent: {}
+[47.662640] (-) TimerEvent: {}
+[47.763543] (-) TimerEvent: {}
+[47.864409] (-) TimerEvent: {}
+[47.965286] (-) TimerEvent: {}
+[48.066173] (-) TimerEvent: {}
+[48.167140] (-) TimerEvent: {}
+[48.267996] (-) TimerEvent: {}
+[48.368859] (-) TimerEvent: {}
+[48.469715] (-) TimerEvent: {}
+[48.570584] (-) TimerEvent: {}
+[48.671483] (-) TimerEvent: {}
+[48.772441] (-) TimerEvent: {}
+[48.873331] (-) TimerEvent: {}
+[48.974207] (-) TimerEvent: {}
+[49.075087] (-) TimerEvent: {}
+[49.175963] (-) TimerEvent: {}
+[49.276832] (-) TimerEvent: {}
+[49.377695] (-) TimerEvent: {}
+[49.478553] (-) TimerEvent: {}
+[49.579384] (-) TimerEvent: {}
+[49.680303] (-) TimerEvent: {}
+[49.781244] (-) TimerEvent: {}
+[49.882137] (-) TimerEvent: {}
+[49.983001] (-) TimerEvent: {}
+[50.083868] (-) TimerEvent: {}
+[50.184742] (-) TimerEvent: {}
+[50.285621] (-) TimerEvent: {}
+[50.386481] (-) TimerEvent: {}
+[50.487362] (-) TimerEvent: {}
+[50.588283] (-) TimerEvent: {}
+[50.689185] (-) TimerEvent: {}
+[50.790073] (-) TimerEvent: {}
+[50.890983] (-) TimerEvent: {}
+[50.991849] (-) TimerEvent: {}
+[51.092720] (-) TimerEvent: {}
+[51.193607] (-) TimerEvent: {}
+[51.294470] (-) TimerEvent: {}
+[51.395346] (-) TimerEvent: {}
+[51.496215] (-) TimerEvent: {}
+[51.597134] (-) TimerEvent: {}
+[51.698036] (-) TimerEvent: {}
+[51.798930] (-) TimerEvent: {}
+[51.899810] (-) TimerEvent: {}
+[52.000701] (-) TimerEvent: {}
+[52.101608] (-) TimerEvent: {}
+[52.202476] (-) TimerEvent: {}
+[52.303358] (-) TimerEvent: {}
+[52.404243] (-) TimerEvent: {}
+[52.505105] (-) TimerEvent: {}
+[52.606012] (-) TimerEvent: {}
+[52.706972] (-) TimerEvent: {}
+[52.807848] (-) TimerEvent: {}
+[52.908721] (-) TimerEvent: {}
+[53.009581] (-) TimerEvent: {}
+[53.110468] (-) TimerEvent: {}
+[53.211348] (-) TimerEvent: {}
+[53.312220] (-) TimerEvent: {}
+[53.413084] (-) TimerEvent: {}
+[53.513950] (-) TimerEvent: {}
+[53.614894] (-) TimerEvent: {}
+[53.715874] (-) TimerEvent: {}
+[53.816849] (-) TimerEvent: {}
+[53.917780] (-) TimerEvent: {}
+[54.018669] (-) TimerEvent: {}
+[54.119535] (-) TimerEvent: {}
+[54.220404] (-) TimerEvent: {}
+[54.321300] (-) TimerEvent: {}
+[54.422191] (-) TimerEvent: {}
+[54.523049] (-) TimerEvent: {}
+[54.623904] (-) TimerEvent: {}
+[54.724721] (-) TimerEvent: {}
+[54.825518] (-) TimerEvent: {}
+[54.926316] (-) TimerEvent: {}
+[55.027129] (-) TimerEvent: {}
+[55.127930] (-) TimerEvent: {}
+[55.228735] (-) TimerEvent: {}
+[55.329537] (-) TimerEvent: {}
+[55.430331] (-) TimerEvent: {}
+[55.531124] (-) TimerEvent: {}
+[55.631966] (-) TimerEvent: {}
+[55.732804] (-) TimerEvent: {}
+[55.833618] (-) TimerEvent: {}
+[55.934427] (-) TimerEvent: {}
+[56.035231] (-) TimerEvent: {}
+[56.136028] (-) TimerEvent: {}
+[56.236864] (-) TimerEvent: {}
+[56.337661] (-) TimerEvent: {}
+[56.438466] (-) TimerEvent: {}
+[56.539265] (-) TimerEvent: {}
+[56.640095] (-) TimerEvent: {}
+[56.740948] (-) TimerEvent: {}
+[56.841771] (-) TimerEvent: {}
+[56.942804] (-) TimerEvent: {}
+[57.043638] (-) TimerEvent: {}
+[57.144445] (-) TimerEvent: {}
+[57.245236] (-) TimerEvent: {}
+[57.346030] (-) TimerEvent: {}
+[57.446867] (-) TimerEvent: {}
+[57.547674] (-) TimerEvent: {}
+[57.648552] (-) TimerEvent: {}
+[57.749401] (-) TimerEvent: {}
+[57.850221] (-) TimerEvent: {}
+[57.951002] (-) TimerEvent: {}
+[58.051796] (-) TimerEvent: {}
+[58.152581] (-) TimerEvent: {}
+[58.253417] (-) TimerEvent: {}
+[58.354236] (-) TimerEvent: {}
+[58.455048] (-) TimerEvent: {}
+[58.555876] (-) TimerEvent: {}
+[58.656734] (-) TimerEvent: {}
+[58.757766] (-) TimerEvent: {}
+[58.800909] (ydlidar) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_client\x1b[0m\n'}
+[58.857906] (-) TimerEvent: {}
+[58.958814] (-) TimerEvent: {}
+[59.059676] (-) TimerEvent: {}
+[59.160529] (-) TimerEvent: {}
+[59.261383] (-) TimerEvent: {}
+[59.362325] (-) TimerEvent: {}
+[59.463212] (-) TimerEvent: {}
+[59.564072] (-) TimerEvent: {}
+[59.664965] (-) TimerEvent: {}
+[59.765935] (-) TimerEvent: {}
+[59.866869] (-) TimerEvent: {}
+[59.967723] (-) TimerEvent: {}
+[60.068546] (-) TimerEvent: {}
+[60.169472] (-) TimerEvent: {}
+[60.270265] (-) TimerEvent: {}
+[60.371096] (-) TimerEvent: {}
+[60.471914] (-) TimerEvent: {}
+[60.572697] (-) TimerEvent: {}
+[60.673531] (-) TimerEvent: {}
+[60.774364] (-) TimerEvent: {}
+[60.875167] (-) TimerEvent: {}
+[60.975967] (-) TimerEvent: {}
+[61.076776] (-) TimerEvent: {}
+[61.177560] (-) TimerEvent: {}
+[61.278348] (-) TimerEvent: {}
+[61.379158] (-) TimerEvent: {}
+[61.479978] (-) TimerEvent: {}
+[61.580802] (-) TimerEvent: {}
+[61.681673] (-) TimerEvent: {}
+[61.782438] (-) TimerEvent: {}
+[61.883175] (-) TimerEvent: {}
+[61.983983] (-) TimerEvent: {}
+[62.043156] (ydlidar) StdoutLine: {'line': b'[100%] Built target ydlidar_client\n'}
+[62.084182] (-) TimerEvent: {}
+[62.119082] (ydlidar) JobEnded: {'identifier': 'ydlidar', 'rc': 'SIGINT'}
+[62.132279] (-) EventReactorShutdown: {}

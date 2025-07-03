@@ -1,0 +1,6 @@
+Invoking command in '/home/sunrise/ros2_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/ros2_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/sunrise/ros2_ws/install/nav2_common
+Invoked command in '/home/sunrise/ros2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/ros2_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/sunrise/ros2_ws/install/nav2_common
+Invoking command in '/home/sunrise/ros2_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/ros2_ws/build/nav2_common -- -j8 -l8
+Invoked command in '/home/sunrise/ros2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/ros2_ws/build/nav2_common -- -j8 -l8
+Invoking command in '/home/sunrise/ros2_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/ros2_ws/build/nav2_common
+Invoked command in '/home/sunrise/ros2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/ros2_ws/build/nav2_common

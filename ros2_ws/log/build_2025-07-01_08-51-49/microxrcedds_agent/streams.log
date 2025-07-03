@@ -1,0 +1,3 @@
+[2.041s] Invoking command in '/home/sunrise/ros2_ws/build/microxrcedds_agent': /usr/bin/cmake --build /home/sunrise/ros2_ws/build/microxrcedds_agent -- -j8 -l8
+[2.469s] [ 96%] Built target microxrcedds_agent
+[2.606s] [100%] Built target MicroXRCEAgent

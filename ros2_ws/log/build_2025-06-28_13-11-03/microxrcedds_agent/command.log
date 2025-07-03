@@ -1,0 +1,4 @@
+Invoking command in '/home/sunrise/ros2_ws/build/microxrcedds_agent': /usr/bin/cmake --build /home/sunrise/ros2_ws/build/microxrcedds_agent -- -j8 -l8
+Invoked command in '/home/sunrise/ros2_ws/build/microxrcedds_agent' returned '0': /usr/bin/cmake --build /home/sunrise/ros2_ws/build/microxrcedds_agent -- -j8 -l8
+Invoking command in '/home/sunrise/ros2_ws/build/microxrcedds_agent': /usr/bin/cmake --install /home/sunrise/ros2_ws/build/microxrcedds_agent
+Invoked command in '/home/sunrise/ros2_ws/build/microxrcedds_agent' returned '0': /usr/bin/cmake --install /home/sunrise/ros2_ws/build/microxrcedds_agent

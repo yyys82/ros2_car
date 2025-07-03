@@ -1,0 +1,52 @@
+[0.132s] Invoking command in '/home/sunrise/ros2_ws/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description /usr/bin/cmake --build /home/sunrise/ros2_ws/build/fishbot_bringup -- -j8 -l8
+[2.053s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.055s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[2.057s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.058s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.058s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.059s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.060s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.060s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.061s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.071s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.396s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.652s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.656s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[2.658s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.111s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.561s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.561s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sunrise/ros2_ws/src/fishbot_bringup/include>
+[3.563s] -- Configured cppcheck exclude dirs and/or files: 
+[3.565s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.566s] -- Added test 'lint_cmake' to check CMake code style
+[3.569s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.577s] -- Added test 'uncrustify' to check C / C++ code style
+[3.578s] -- Configured uncrustify additional arguments: 
+[3.579s] -- Added test 'xmllint' to check XML markup files
+[3.580s] -- Configuring done
+[3.639s] -- Generating done
+[3.664s] -- Build files have been written to: /home/sunrise/ros2_ws/build/fishbot_bringup
+[3.800s] [35m[1mConsolidate compiler generated dependencies of target fishbot_bringup[0m
+[3.884s] [100%] Built target fishbot_bringup
+[3.932s] Invoked command in '/home/sunrise/ros2_ws/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description /usr/bin/cmake --build /home/sunrise/ros2_ws/build/fishbot_bringup -- -j8 -l8
+[3.938s] Invoking command in '/home/sunrise/ros2_ws/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description /usr/bin/cmake --install /home/sunrise/ros2_ws/build/fishbot_bringup
+[3.972s] -- Install configuration: ""
+[3.973s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_bringup/lib/fishbot_bringup/fishbot_bringup
+[3.973s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_bringup/share/ament_index/resource_index/package_run_dependencies/fishbot_bringup
+[3.974s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_bringup/share/ament_index/resource_index/parent_prefix_path/fishbot_bringup
+[3.975s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_bringup/share/fishbot_bringup/environment/ament_prefix_path.sh
+[3.975s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_bringup/share/fishbot_bringup/environment/ament_prefix_path.dsv
+[3.976s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_bringup/share/fishbot_bringup/environment/path.sh
+[3.977s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_bringup/share/fishbot_bringup/environment/path.dsv
+[3.977s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_bringup/share/fishbot_bringup/local_setup.bash
+[3.978s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_bringup/share/fishbot_bringup/local_setup.sh
+[3.979s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_bringup/share/fishbot_bringup/local_setup.zsh
+[3.979s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_bringup/share/fishbot_bringup/local_setup.dsv
+[3.980s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_bringup/share/fishbot_bringup/package.dsv
+[3.980s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_bringup/share/ament_index/resource_index/packages/fishbot_bringup
+[3.981s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_bringup/share/fishbot_bringup/cmake/fishbot_bringupConfig.cmake
+[3.981s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_bringup/share/fishbot_bringup/cmake/fishbot_bringupConfig-version.cmake
+[3.981s] -- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_bringup/share/fishbot_bringup/package.xml
+[3.982s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_bringup/share/fishbot_bringup/launch
+[3.982s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_bringup/share/fishbot_bringup/launch/fishbot_bringup.launch.py
+[3.990s] Invoked command in '/home/sunrise/ros2_ws/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description /usr/bin/cmake --install /home/sunrise/ros2_ws/build/fishbot_bringup

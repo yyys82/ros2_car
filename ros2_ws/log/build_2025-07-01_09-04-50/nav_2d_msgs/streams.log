@@ -1,0 +1,5 @@
+[0.188s] Invoking command in '/home/sunrise/ros2_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/ros2_ws/build/nav_2d_msgs -- -j8 -l8
+[2.166s] [0mCMake Error: The source directory "/home/sunrise/ros2_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs" does not exist.
+[2.169s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[2.173s] gmake: *** [Makefile:1827: cmake_check_build_system] Error 1
+[2.277s] Invoked command in '/home/sunrise/ros2_ws/build/nav_2d_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/ros2_ws/build/nav_2d_msgs -- -j8 -l8

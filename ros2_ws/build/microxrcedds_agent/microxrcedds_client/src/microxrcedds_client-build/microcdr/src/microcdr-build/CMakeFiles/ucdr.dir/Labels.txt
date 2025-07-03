@@ -1,0 +1,13 @@
+# Target labels
+ ucdr
+# Source files and their labels
+/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/ucdr
+/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/ucdr.rule
+/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/ucdr-complete.rule
+/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-build.rule
+/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-configure.rule
+/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-download.rule
+/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-install.rule
+/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-mkdir.rule
+/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-patch.rule
+/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-update.rule

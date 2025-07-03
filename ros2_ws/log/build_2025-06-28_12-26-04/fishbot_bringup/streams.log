@@ -1,0 +1,65 @@
+[0.144s] Invoking command in '/home/sunrise/ros2_ws/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description /usr/bin/cmake /home/sunrise/ros2_ws/src/fishbot_bringup -DCMAKE_INSTALL_PREFIX=/home/sunrise/ros2_ws/install/fishbot_bringup
+[2.233s] -- The C compiler identification is GNU 11.2.0
+[2.237s] -- The CXX compiler identification is GNU 11.2.0
+[2.239s] -- Detecting C compiler ABI info
+[2.243s] -- Detecting C compiler ABI info - done
+[2.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.248s] -- Detecting C compile features
+[2.249s] -- Detecting C compile features - done
+[2.251s] -- Detecting CXX compiler ABI info
+[2.450s] -- Detecting CXX compiler ABI info - done
+[2.516s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.519s] -- Detecting CXX compile features
+[2.522s] -- Detecting CXX compile features - done
+[2.541s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.720s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.474s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[4.742s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.774s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.835s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.932s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.067s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.397s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.415s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.978s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.116s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.322s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.391s] -- Looking for pthread.h
+[6.813s] -- Looking for pthread.h - found
+[6.814s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.248s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.254s] -- Found Threads: TRUE  
+[7.713s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[7.829s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[7.975s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[8.043s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[8.774s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.353s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.354s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sunrise/ros2_ws/src/fishbot_bringup/include>
+[9.354s] -- Configured cppcheck exclude dirs and/or files: 
+[9.359s] -- Added test 'lint_cmake' to check CMake code style
+[9.365s] -- Added test 'uncrustify' to check C / C++ code style
+[9.366s] -- Configured uncrustify additional arguments: 
+[9.369s] -- Added test 'xmllint' to check XML markup files
+[9.377s] -- Configuring done
+[9.443s] -- Generating done
+[9.471s] -- Build files have been written to: /home/sunrise/ros2_ws/build/fishbot_bringup
+[9.558s] Invoked command in '/home/sunrise/ros2_ws/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description /usr/bin/cmake /home/sunrise/ros2_ws/src/fishbot_bringup -DCMAKE_INSTALL_PREFIX=/home/sunrise/ros2_ws/install/fishbot_bringup
+[9.568s] Invoking command in '/home/sunrise/ros2_ws/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description /usr/bin/cmake --build /home/sunrise/ros2_ws/build/fishbot_bringup -- -j8 -l8
+[9.808s] [ 50%] [32mBuilding CXX object CMakeFiles/fishbot_bringup.dir/src/fishbot_bringup.cpp.o[0m
+[29.008s] [01m[K/home/sunrise/ros2_ws/src/fishbot_bringup/src/fishbot_bringup.cpp:97:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass TopicSubscribe01[m[K’
+[29.009s]    97 | class [01;31m[KTopicSubscribe01[m[K : public rclcpp::Node
+[29.010s]       |       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[29.011s] [01m[K/home/sunrise/ros2_ws/src/fishbot_bringup/src/fishbot_bringup.cpp:6:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass TopicSubscribe01[m[K’
+[29.012s]     6 | class [01;36m[KTopicSubscribe01[m[K : public rclcpp::Node
+[29.014s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[29.015s] [01m[K/home/sunrise/ros2_ws/src/fishbot_bringup/src/fishbot_bringup.cpp:157:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint main(int, char**)[m[K’
+[29.016s]   157 | int [01;31m[Kmain[m[K(int argc, char **argv)
+[29.018s]       |     [01;31m[K^~~~[m[K
+[29.020s] [01m[K/home/sunrise/ros2_ws/src/fishbot_bringup/src/fishbot_bringup.cpp:66:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint main(int, char**)[m[K’ previously defined here
+[29.021s]    66 | int [01;36m[Kmain[m[K(int argc, char **argv)
+[29.022s]       |     [01;36m[K^~~~[m[K
+[44.664s] gmake[2]: *** [CMakeFiles/fishbot_bringup.dir/build.make:76: CMakeFiles/fishbot_bringup.dir/src/fishbot_bringup.cpp.o] Error 1
+[44.667s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/fishbot_bringup.dir/all] Error 2
+[44.669s] gmake: *** [Makefile:146: all] Error 2
+[44.678s] Invoked command in '/home/sunrise/ros2_ws/build/fishbot_bringup' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description /usr/bin/cmake --build /home/sunrise/ros2_ws/build/fishbot_bringup -- -j8 -l8

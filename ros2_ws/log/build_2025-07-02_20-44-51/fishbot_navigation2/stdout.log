@@ -1,0 +1,33 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found nav2_bringup: 1.1.18 (/opt/ros/humble/share/nav2_bringup/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sunrise/ros2_ws/build/fishbot_navigation2
+-- Install configuration: ""
+-- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch
+-- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/navigation2.launch.py
+-- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/param
+-- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/param/fishbot_nav2.yaml
+-- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps
+-- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/fishbot_map.yaml
+-- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/fishbot_map.pgm
+-- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/ament_index/resource_index/package_run_dependencies/fishbot_navigation2
+-- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/ament_index/resource_index/parent_prefix_path/fishbot_navigation2
+-- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.sh
+-- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.sh
+-- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.dsv
+-- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.bash
+-- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.sh
+-- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.zsh
+-- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.dsv
+-- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv
+-- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/ament_index/resource_index/packages/fishbot_navigation2
+-- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config.cmake
+-- Up-to-date: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config-version.cmake
+-- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.xml

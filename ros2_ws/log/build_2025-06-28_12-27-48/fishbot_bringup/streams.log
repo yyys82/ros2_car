@@ -1,0 +1,19 @@
+[0.131s] Invoking command in '/home/sunrise/ros2_ws/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description /usr/bin/cmake --build /home/sunrise/ros2_ws/build/fishbot_bringup -- -j8 -l8
+[2.020s] [35m[1mConsolidate compiler generated dependencies of target fishbot_bringup[0m
+[2.020s] [ 50%] [32mBuilding CXX object CMakeFiles/fishbot_bringup.dir/src/fishbot_bringup.cpp.o[0m
+[15.170s] [01m[K/home/sunrise/ros2_ws/src/fishbot_bringup/src/fishbot_bringup.cpp:97:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass TopicSubscribe01[m[K’
+[15.171s]    97 | class [01;31m[KTopicSubscribe01[m[K : public rclcpp::Node
+[15.171s]       |       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[15.172s] [01m[K/home/sunrise/ros2_ws/src/fishbot_bringup/src/fishbot_bringup.cpp:6:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass TopicSubscribe01[m[K’
+[15.172s]     6 | class [01;36m[KTopicSubscribe01[m[K : public rclcpp::Node
+[15.172s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[15.173s] [01m[K/home/sunrise/ros2_ws/src/fishbot_bringup/src/fishbot_bringup.cpp:157:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint main(int, char**)[m[K’
+[15.173s]   157 | int [01;31m[Kmain[m[K(int argc, char **argv)
+[15.174s]       |     [01;31m[K^~~~[m[K
+[15.174s] [01m[K/home/sunrise/ros2_ws/src/fishbot_bringup/src/fishbot_bringup.cpp:66:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint main(int, char**)[m[K’ previously defined here
+[15.175s]    66 | int [01;36m[Kmain[m[K(int argc, char **argv)
+[15.175s]       |     [01;36m[K^~~~[m[K
+[29.072s] gmake[2]: *** [CMakeFiles/fishbot_bringup.dir/build.make:76: CMakeFiles/fishbot_bringup.dir/src/fishbot_bringup.cpp.o] Error 1
+[29.072s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/fishbot_bringup.dir/all] Error 2
+[29.073s] gmake: *** [Makefile:146: all] Error 2
+[29.081s] Invoked command in '/home/sunrise/ros2_ws/build/fishbot_bringup' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/sunrise/ros2_ws/install/fishbot_description /usr/bin/cmake --build /home/sunrise/ros2_ws/build/fishbot_bringup -- -j8 -l8

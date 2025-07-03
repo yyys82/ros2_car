@@ -1,0 +1,37 @@
+[0.041s] Invoking command in '/home/sunrise/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake /home/sunrise/ros2_ws/src/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/sunrise/ros2_ws/install/micro_ros_agent
+[0.366s] -- The C compiler identification is GNU 11.2.0
+[0.396s] -- Detecting C compiler ABI info
+[0.747s] -- Detecting C compiler ABI info - done
+[0.794s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.795s] -- Detecting C compile features
+[0.797s] -- Detecting C compile features - done
+[1.092s] -- The CXX compiler identification is GNU 11.2.0
+[1.121s] -- Detecting CXX compiler ABI info
+[1.521s] -- Detecting CXX compiler ABI info - done
+[1.569s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.571s] -- Detecting CXX compile features
+[1.573s] -- Detecting CXX compile features - done
+[1.735s] -- Configuring done
+[1.752s] -- Generating done
+[1.759s] -- Build files have been written to: /home/sunrise/ros2_ws/build/micro_ros_agent
+[1.785s] Invoked command in '/home/sunrise/ros2_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake /home/sunrise/ros2_ws/src/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/sunrise/ros2_ws/install/micro_ros_agent
+[1.791s] Invoking command in '/home/sunrise/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --build /home/sunrise/ros2_ws/build/micro_ros_agent -- -j8 -l8
+[1.988s] [  6%] [34m[1mCreating directories for 'xrceagent'[0m
+[2.301s] [ 12%] [34m[1mPerforming download step (git clone) for 'xrceagent'[0m
+[2.386s] Cloning into 'xrceagent'...
+[2.511s] fatal: unable to access 'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git/': Failed to connect to github.com port 443 after 87 ms: Connection refused
+[2.524s] Cloning into 'xrceagent'...
+[2.568s] fatal: unable to access 'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git/': Failed to connect to github.com port 443 after 7 ms: Connection refused
+[2.582s] Cloning into 'xrceagent'...
+[2.624s] fatal: unable to access 'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git/': Failed to connect to github.com port 443 after 4 ms: Connection refused
+[2.631s] -- Had to git clone more than once:
+[2.631s] [31mCMake Error at /home/sunrise/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-gitclone.cmake:31 (message):
+[2.632s]   Failed to clone repository:
+[2.632s]   'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git'
+[2.633s] 
+[2.633s] [0m
+[2.634s]           3 times.
+[2.636s] gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:99: agent/src/xrceagent-stamp/xrceagent-download] Error 1
+[2.637s] gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2
+[2.638s] gmake: *** [Makefile:91: all] Error 2
+[2.647s] Invoked command in '/home/sunrise/ros2_ws/build/micro_ros_agent' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/ros2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --build /home/sunrise/ros2_ws/build/micro_ros_agent -- -j8 -l8

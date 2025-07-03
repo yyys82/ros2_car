@@ -1,0 +1,58 @@
+[2.033s] Invoking command in '/home/sunrise/ros2_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/sunrise/ros2_ws/src/fishbot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/sunrise/ros2_ws/install/fishbot_navigation2
+[2.363s] -- The C compiler identification is GNU 11.2.0
+[2.703s] -- The CXX compiler identification is GNU 11.2.0
+[2.736s] -- Detecting C compiler ABI info
+[3.112s] -- Detecting C compiler ABI info - done
+[3.158s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.159s] -- Detecting C compile features
+[3.161s] -- Detecting C compile features - done
+[3.180s] -- Detecting CXX compiler ABI info
+[3.598s] -- Detecting CXX compiler ABI info - done
+[3.645s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.646s] -- Detecting CXX compile features
+[3.650s] -- Detecting CXX compile features - done
+[3.665s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.687s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.310s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.862s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.876s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.880s] -- Added test 'lint_cmake' to check CMake code style
+[5.884s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.892s] -- Added test 'xmllint' to check XML markup files
+[5.899s] -- Configuring done
+[5.912s] -- Generating done
+[5.920s] -- Build files have been written to: /home/sunrise/ros2_ws/build/fishbot_navigation2
+[5.946s] Invoked command in '/home/sunrise/ros2_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/sunrise/ros2_ws/src/fishbot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/sunrise/ros2_ws/install/fishbot_navigation2
+[5.952s] Invoking command in '/home/sunrise/ros2_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/ros2_ws/build/fishbot_navigation2 -- -j8 -l8
+[6.121s] Invoked command in '/home/sunrise/ros2_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/ros2_ws/build/fishbot_navigation2 -- -j8 -l8
+[6.127s] Invoking command in '/home/sunrise/ros2_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/ros2_ws/build/fishbot_navigation2
+[6.163s] -- Install configuration: ""
+[6.165s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch
+[6.165s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/navigation2.launch.py
+[6.166s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/odom_ekf.launch.py
+[6.167s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/config
+[6.167s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/config/ekf.yaml
+[6.168s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/param
+[6.168s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/param/fishbot.yaml
+[6.169s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/param/fishbot_nav2.yaml
+[6.170s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps
+[6.170s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/fishbot_map.yaml
+[6.171s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/fishbot_map.png
+[6.171s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/fishbot_map.pgm
+[6.172s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/show_pgm.py
+[6.172s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/ament_index/resource_index/package_run_dependencies/fishbot_navigation2
+[6.173s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/ament_index/resource_index/parent_prefix_path/fishbot_navigation2
+[6.173s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.sh
+[6.174s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.dsv
+[6.175s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.sh
+[6.175s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.dsv
+[6.176s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.bash
+[6.176s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.sh
+[6.177s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.zsh
+[6.177s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.dsv
+[6.178s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv
+[6.179s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/ament_index/resource_index/packages/fishbot_navigation2
+[6.179s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config.cmake
+[6.180s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config-version.cmake
+[6.180s] -- Installing: /home/sunrise/ros2_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.xml
+[6.192s] Invoked command in '/home/sunrise/ros2_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/ros2_ws/build/fishbot_navigation2

@@ -1,0 +1,15 @@
+[01m[K/home/sunrise/ros2_ws/src/fishbot_bringup/src/fishbot_bringup.cpp:97:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass TopicSubscribe01[m[K’
+   97 | class [01;31m[KTopicSubscribe01[m[K : public rclcpp::Node
+      |       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sunrise/ros2_ws/src/fishbot_bringup/src/fishbot_bringup.cpp:6:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass TopicSubscribe01[m[K’
+    6 | class [01;36m[KTopicSubscribe01[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sunrise/ros2_ws/src/fishbot_bringup/src/fishbot_bringup.cpp:157:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint main(int, char**)[m[K’
+  157 | int [01;31m[Kmain[m[K(int argc, char **argv)
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/sunrise/ros2_ws/src/fishbot_bringup/src/fishbot_bringup.cpp:66:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint main(int, char**)[m[K’ previously defined here
+   66 | int [01;36m[Kmain[m[K(int argc, char **argv)
+      |     [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/fishbot_bringup.dir/build.make:76: CMakeFiles/fishbot_bringup.dir/src/fishbot_bringup.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/fishbot_bringup.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,11 @@
+/home/sunrise/ros2_ws/build/ydlidar/CMakeFiles/uninstall.dir
+/home/sunrise/ros2_ws/build/ydlidar/CMakeFiles/ydlidar_uninstall.dir
+/home/sunrise/ros2_ws/build/ydlidar/CMakeFiles/ydlidar_node.dir
+/home/sunrise/ros2_ws/build/ydlidar/CMakeFiles/ydlidar_client.dir
+/home/sunrise/ros2_ws/build/ydlidar/CMakeFiles/test.dir
+/home/sunrise/ros2_ws/build/ydlidar/CMakeFiles/edit_cache.dir
+/home/sunrise/ros2_ws/build/ydlidar/CMakeFiles/rebuild_cache.dir
+/home/sunrise/ros2_ws/build/ydlidar/CMakeFiles/list_install_components.dir
+/home/sunrise/ros2_ws/build/ydlidar/CMakeFiles/install.dir
+/home/sunrise/ros2_ws/build/ydlidar/CMakeFiles/install/local.dir
+/home/sunrise/ros2_ws/build/ydlidar/CMakeFiles/install/strip.dir

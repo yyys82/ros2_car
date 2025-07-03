@@ -1,0 +1,34 @@
+[0.179s] Invoking command in '/home/sunrise/ros2_ws/build/nav2_voxel_grid': CMAKE_PREFIX_PATH=/home/sunrise/ros2_ws/install/nav2_common:/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/dwb_msgs:/home/sunrise/ros2_ws/install/nav_2d_msgs:/home/sunrise/ros2_ws/install/nav2_voxel_grid:/home/sunrise/ros2_ws/install/nav2_msgs:/home/sunrise/ros2_ws/install/microxrcedds_agent:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/fishbot_bringup:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/ros2_ws/build/nav2_voxel_grid -- -j8 -l8
+[0.426s] [ 20%] Built target gtest
+[0.443s] [ 40%] Built target gtest_main
+[0.451s] [ 60%] Built target voxel_grid
+[0.631s] [ 80%] Built target voxel_grid_tests
+[0.669s] [100%] Built target voxel_grid_bresenham_3d
+[0.760s] Invoked command in '/home/sunrise/ros2_ws/build/nav2_voxel_grid' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/ros2_ws/install/nav2_common:/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/dwb_msgs:/home/sunrise/ros2_ws/install/nav_2d_msgs:/home/sunrise/ros2_ws/install/nav2_voxel_grid:/home/sunrise/ros2_ws/install/nav2_msgs:/home/sunrise/ros2_ws/install/microxrcedds_agent:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/fishbot_bringup:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/ros2_ws/build/nav2_voxel_grid -- -j8 -l8
+[0.770s] Invoking command in '/home/sunrise/ros2_ws/build/nav2_voxel_grid': CMAKE_PREFIX_PATH=/home/sunrise/ros2_ws/install/nav2_common:/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/dwb_msgs:/home/sunrise/ros2_ws/install/nav_2d_msgs:/home/sunrise/ros2_ws/install/nav2_voxel_grid:/home/sunrise/ros2_ws/install/nav2_msgs:/home/sunrise/ros2_ws/install/microxrcedds_agent:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/fishbot_bringup:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/ros2_ws/build/nav2_voxel_grid
+[0.815s] -- Install configuration: "Release"
+[0.817s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[0.820s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/include
+[0.820s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/include/nav2_voxel_grid
+[0.822s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[0.823s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[0.825s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[0.826s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[0.828s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[0.829s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[0.832s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[0.834s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[0.835s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[0.837s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[0.838s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[0.840s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[0.841s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[0.845s] -- Installing: /home/sunrise/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[0.850s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[0.851s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.852s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.852s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[0.855s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[0.856s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[0.856s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[0.869s] Invoked command in '/home/sunrise/ros2_ws/build/nav2_voxel_grid' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/ros2_ws/install/nav2_common:/home/sunrise/ros2_ws/install/ydlidar:/home/sunrise/ros2_ws/install/dwb_msgs:/home/sunrise/ros2_ws/install/nav_2d_msgs:/home/sunrise/ros2_ws/install/nav2_voxel_grid:/home/sunrise/ros2_ws/install/nav2_msgs:/home/sunrise/ros2_ws/install/microxrcedds_agent:/home/sunrise/ros2_ws/install/micro_ros_agent:/home/sunrise/ros2_ws/install/micro_ros_msgs:/home/sunrise/ros2_ws/install/fishbot_bringup:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/ros2_ws/build/nav2_voxel_grid

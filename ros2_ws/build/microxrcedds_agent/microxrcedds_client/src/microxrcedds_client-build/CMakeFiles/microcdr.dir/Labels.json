@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/microcdr"
+		},
+		{
+			"file" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/microcdr.rule"
+		},
+		{
+			"file" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/microcdr-complete.rule"
+		},
+		{
+			"file" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-build.rule"
+		},
+		{
+			"file" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-configure.rule"
+		},
+		{
+			"file" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-download.rule"
+		},
+		{
+			"file" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-install.rule"
+		},
+		{
+			"file" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-mkdir.rule"
+		},
+		{
+			"file" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-patch.rule"
+		},
+		{
+			"file" : "/home/sunrise/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"microcdr"
+		],
+		"name" : "microcdr"
+	}
+}

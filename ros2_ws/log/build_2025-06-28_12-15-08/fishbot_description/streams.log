@@ -1,0 +1,46 @@
+[3.738s] Invoking command in '/home/sunrise/ros2_ws/src/fishbot_description': PYTHONPATH=/home/sunrise/ros2_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/sunrise/ros2_ws/build/fishbot_description/build install --record /home/sunrise/ros2_ws/build/fishbot_description/install.log --single-version-externally-managed install_data
+[4.853s] running egg_info
+[4.856s] creating ../../build/fishbot_description/fishbot_description.egg-info
+[4.857s] writing ../../build/fishbot_description/fishbot_description.egg-info/PKG-INFO
+[4.858s] writing dependency_links to ../../build/fishbot_description/fishbot_description.egg-info/dependency_links.txt
+[4.859s] writing entry points to ../../build/fishbot_description/fishbot_description.egg-info/entry_points.txt
+[4.859s] writing requirements to ../../build/fishbot_description/fishbot_description.egg-info/requires.txt
+[4.860s] writing top-level names to ../../build/fishbot_description/fishbot_description.egg-info/top_level.txt
+[4.860s] writing manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[4.868s] reading manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[4.880s] writing manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[4.881s] running build
+[4.881s] running build_py
+[4.882s] creating /home/sunrise/ros2_ws/build/fishbot_description/build
+[4.882s] creating /home/sunrise/ros2_ws/build/fishbot_description/build/lib
+[4.883s] creating /home/sunrise/ros2_ws/build/fishbot_description/build/lib/fishbot_description
+[4.883s] copying fishbot_description/__init__.py -> /home/sunrise/ros2_ws/build/fishbot_description/build/lib/fishbot_description
+[4.884s] copying fishbot_description/rotate_wheel.py -> /home/sunrise/ros2_ws/build/fishbot_description/build/lib/fishbot_description
+[4.884s] running install
+[4.886s] running install_lib
+[4.889s] creating /home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[4.889s] copying /home/sunrise/ros2_ws/build/fishbot_description/build/lib/fishbot_description/__init__.py -> /home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[4.890s] copying /home/sunrise/ros2_ws/build/fishbot_description/build/lib/fishbot_description/rotate_wheel.py -> /home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[4.892s] byte-compiling /home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description/__init__.py to __init__.cpython-310.pyc
+[4.893s] byte-compiling /home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description/rotate_wheel.py to rotate_wheel.cpython-310.pyc
+[4.896s] running install_data
+[4.897s] creating /home/sunrise/ros2_ws/install/fishbot_description/share/ament_index
+[4.898s] creating /home/sunrise/ros2_ws/install/fishbot_description/share/ament_index/resource_index
+[4.898s] creating /home/sunrise/ros2_ws/install/fishbot_description/share/ament_index/resource_index/packages
+[4.899s] copying resource/fishbot_description -> /home/sunrise/ros2_ws/install/fishbot_description/share/ament_index/resource_index/packages
+[4.899s] copying package.xml -> /home/sunrise/ros2_ws/install/fishbot_description/share/fishbot_description
+[4.900s] creating /home/sunrise/ros2_ws/install/fishbot_description/share/fishbot_description/launch
+[4.900s] copying launch/display_rviz2.launch.py -> /home/sunrise/ros2_ws/install/fishbot_description/share/fishbot_description/launch
+[4.901s] copying launch/gazebo.launch.py -> /home/sunrise/ros2_ws/install/fishbot_description/share/fishbot_description/launch
+[4.901s] creating /home/sunrise/ros2_ws/install/fishbot_description/share/fishbot_description/urdf
+[4.902s] copying urdf/fishbot_base.urdf -> /home/sunrise/ros2_ws/install/fishbot_description/share/fishbot_description/urdf
+[4.902s] copying urdf/fishbot_gazebo.urdf -> /home/sunrise/ros2_ws/install/fishbot_description/share/fishbot_description/urdf
+[4.903s] creating /home/sunrise/ros2_ws/install/fishbot_description/share/fishbot_description/world
+[4.903s] copying world/fishbot.world -> /home/sunrise/ros2_ws/install/fishbot_description/share/fishbot_description/world
+[4.903s] copying world/fish.world -> /home/sunrise/ros2_ws/install/fishbot_description/share/fishbot_description/world
+[4.904s] running install_egg_info
+[4.912s] Copying ../../build/fishbot_description/fishbot_description.egg-info to /home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info
+[4.917s] running install_scripts
+[5.019s] Installing rotate_wheel script to /home/sunrise/ros2_ws/install/fishbot_description/lib/fishbot_description
+[5.021s] writing list of installed files to '/home/sunrise/ros2_ws/build/fishbot_description/install.log'
+[5.227s] Invoked command in '/home/sunrise/ros2_ws/src/fishbot_description' returned '0': PYTHONPATH=/home/sunrise/ros2_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/ros2_ws/install/fishbot_description/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/sunrise/ros2_ws/build/fishbot_description/build install --record /home/sunrise/ros2_ws/build/fishbot_description/install.log --single-version-externally-managed install_data

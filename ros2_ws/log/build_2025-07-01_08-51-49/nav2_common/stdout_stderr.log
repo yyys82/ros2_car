@@ -1,0 +1,3 @@
+[0mCMake Error: The source directory "/home/sunrise/ros2_ws/src/navigation2/nav2_common" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:230: cmake_check_build_system] Error 1

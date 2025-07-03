@@ -1,0 +1,3 @@
+Invoking command in '/home/sunrise/ros2_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot -DCMAKE_INSTALL_PREFIX=/home/sunrise/ros2_ws/install/ydlidar
+Invoked command in '/home/sunrise/ros2_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sunrise/ros2_ws/src/ydlidar_ros2-1.0.0-fishbot -DCMAKE_INSTALL_PREFIX=/home/sunrise/ros2_ws/install/ydlidar
+Invoking command in '/home/sunrise/ros2_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/ros2_ws/build/ydlidar -- -j8 -l8

@@ -1,0 +1,255 @@
+[0.188s] Invoking command in '/home/sunrise/ros2_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/ros2_ws/build/nav_2d_msgs -- -j8 -l8
+[2.430s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_generator_c[0m
+[2.432s] [  1%] Built target nav_2d_msgs__cpp
+[2.434s] [ 12%] Built target nav_2d_msgs__rosidl_generator_c
+[2.436s] [ 12%] Built target ament_cmake_python_copy_nav_2d_msgs
+[2.439s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.442s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_cpp[0m
+[2.443s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.445s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.448s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_c[0m
+[2.449s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_introspection_c[0m
+[2.449s] [ 23%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[2.450s] [ 35%] Built target nav_2d_msgs__rosidl_typesupport_c
+[2.451s] [ 46%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[2.451s] [ 57%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[2.452s] [ 69%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[2.453s] [ 80%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[2.454s] [ 80%] Built target nav_2d_msgs
+[2.455s] [ 81%] Built target nav_2d_msgs__py
+[2.455s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_generator_py[0m
+[2.456s] [ 91%] Built target nav_2d_msgs__rosidl_generator_py
+[2.457s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.457s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[2.458s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_typesupport_c__pyext[0m
+[2.459s] [ 94%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext
+[2.459s] [ 97%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.460s] [100%] Built target nav_2d_msgs__rosidl_typesupport_c__pyext
+[2.479s] running egg_info
+[2.481s] writing nav_2d_msgs.egg-info/PKG-INFO
+[2.484s] writing dependency_links to nav_2d_msgs.egg-info/dependency_links.txt
+[2.485s] writing top-level names to nav_2d_msgs.egg-info/top_level.txt
+[2.485s] reading manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[2.486s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[2.742s] [100%] Built target ament_cmake_python_build_nav_2d_msgs_egg
+[2.805s] Invoked command in '/home/sunrise/ros2_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/ros2_ws/build/nav_2d_msgs -- -j8 -l8
+[2.816s] Invoking command in '/home/sunrise/ros2_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/ros2_ws/build/nav_2d_msgs
+[2.877s] -- Install configuration: ""
+[2.878s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_2d_msgs
+[2.879s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[2.880s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[2.881s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.h
+[2.882s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.h
+[2.883s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[2.884s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h
+[2.888s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.h
+[2.892s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__functions.c
+[2.893s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__functions.c
+[2.894s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__functions.h
+[2.896s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c
+[2.897s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.h
+[2.899s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.h
+[2.900s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h
+[2.902s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.h
+[2.903s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.h
+[2.905s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.h
+[2.906s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__functions.h
+[2.908s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.h
+[2.911s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__functions.h
+[2.917s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c
+[2.919s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.h
+[2.920s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.c
+[2.921s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.h
+[2.923s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.h
+[2.924s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__functions.c
+[2.926s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.h
+[2.928s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.h
+[2.929s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.h
+[2.930s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.h
+[2.932s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.h
+[2.933s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.935s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.h
+[2.936s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.h
+[2.938s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.sh
+[2.939s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.dsv
+[2.940s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so
+[2.941s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[2.942s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[2.943s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[2.944s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_c.h
+[2.950s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_c.h
+[2.951s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_c.h
+[2.952s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_c.h
+[2.953s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[2.953s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[2.954s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.955s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so
+[2.956s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[2.957s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[2.959s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.hpp
+[2.959s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[2.960s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__traits.hpp
+[2.961s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__builder.hpp
+[2.962s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.hpp
+[2.962s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.hpp
+[2.963s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
+[2.964s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.hpp
+[2.964s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.hpp
+[2.967s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__builder.hpp
+[2.968s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__builder.hpp
+[2.971s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.hpp
+[2.972s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__builder.hpp
+[2.973s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__builder.hpp
+[2.975s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
+[2.976s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.hpp
+[2.978s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__traits.hpp
+[2.979s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__traits.hpp
+[2.981s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.hpp
+[2.982s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.hpp
+[2.983s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.hpp
+[2.985s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.hpp
+[2.986s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__builder.hpp
+[2.989s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__traits.hpp
+[2.995s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.hpp
+[2.998s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__traits.hpp
+[2.999s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.hpp
+[3.001s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.hpp
+[3.003s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.004s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.hpp
+[3.007s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.hpp
+[3.008s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.hpp
+[3.009s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[3.011s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[3.013s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.014s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[3.016s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.018s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[3.019s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/dds_fastrtps
+[3.020s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[3.021s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.022s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.025s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.029s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.031s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[3.032s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[3.033s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[3.034s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_c.h
+[3.038s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c
+[3.040s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_c.h
+[3.042s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.c
+[3.043s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.c
+[3.044s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_c.h
+[3.045s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c
+[3.050s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.c
+[3.052s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.c
+[3.054s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_c.h
+[3.054s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_c.h
+[3.055s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_c.h
+[3.056s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.056s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so
+[3.057s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so
+[3.057s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[3.058s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[3.059s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[3.059s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.cpp
+[3.060s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_cpp.hpp
+[3.060s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.cpp
+[3.061s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.cpp
+[3.061s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.062s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_cpp.hpp
+[3.062s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_cpp.hpp
+[3.063s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.cpp
+[3.063s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.cpp
+[3.064s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_cpp.hpp
+[3.064s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.cpp
+[3.065s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.066s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so
+[3.066s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so
+[3.067s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.sh
+[3.067s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.dsv
+[3.068s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.0-py3.10.egg-info
+[3.068s] -- Installing: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.0-py3.10.egg-info/PKG-INFO
+[3.069s] -- Installing: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.0-py3.10.egg-info/SOURCES.txt
+[3.070s] -- Installing: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.0-py3.10.egg-info/top_level.txt
+[3.070s] -- Installing: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.0-py3.10.egg-info/dependency_links.txt
+[3.071s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs
+[3.071s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.072s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_c.c
+[3.072s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.073s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/libnav_2d_msgs__rosidl_generator_py.so
+[3.073s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.074s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.075s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/__init__.py
+[3.075s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.076s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg
+[3.076s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_stamped.py
+[3.077s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d32_s.c
+[3.078s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d32.py
+[3.079s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_path2_d.py
+[3.080s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d_stamped.py
+[3.081s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d.py
+[3.081s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d_stamped_s.c
+[3.083s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/__init__.py
+[3.083s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d32.py
+[3.084s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_s.c
+[3.085s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d32_s.c
+[3.086s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_stamped_s.c
+[3.087s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_path2_d_s.c
+[3.494s] Listing '/home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs'...
+[3.496s] Listing '/home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg'...
+[3.519s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.520s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.521s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.524s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_py.so
+[3.527s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.idl
+[3.530s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.idl
+[3.531s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.idl
+[3.532s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.idl
+[3.534s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.idl
+[3.535s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.idl
+[3.536s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.msg
+[3.538s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.msg
+[3.539s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.msg
+[3.540s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.msg
+[3.541s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.msg
+[3.543s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.msg
+[3.544s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/ament_index/resource_index/package_run_dependencies/nav_2d_msgs
+[3.544s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/ament_index/resource_index/parent_prefix_path/nav_2d_msgs
+[3.546s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.sh
+[3.547s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.dsv
+[3.548s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.sh
+[3.549s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.dsv
+[3.550s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.bash
+[3.551s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.sh
+[3.551s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.zsh
+[3.552s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.dsv
+[3.553s] -- Installing: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.dsv
+[3.553s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/ament_index/resource_index/packages/nav_2d_msgs
+[3.554s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport.cmake
+[3.560s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.561s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.562s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.562s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cppExport.cmake
+[3.563s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.564s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.565s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.565s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.566s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport.cmake
+[3.567s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.568s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.568s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.569s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport.cmake
+[3.570s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.571s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport.cmake
+[3.571s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.572s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake-extras.cmake
+[3.573s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.573s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.574s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.575s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.575s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.576s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.576s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig.cmake
+[3.577s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig-version.cmake
+[3.577s] -- Up-to-date: /home/sunrise/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.xml
+[3.652s] Invoked command in '/home/sunrise/ros2_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/ros2_ws/install/nav2_simple_commander:/home/sunrise/ros2_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/ros2_ws/build/nav_2d_msgs

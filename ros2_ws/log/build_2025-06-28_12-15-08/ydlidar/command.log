@@ -1,0 +1,4 @@
+Invoking command in '/home/sunrise/ros2_ws/build/ydlidar': /usr/bin/cmake --build /home/sunrise/ros2_ws/build/ydlidar -- -j8 -l8
+Invoked command in '/home/sunrise/ros2_ws/build/ydlidar' returned '0': /usr/bin/cmake --build /home/sunrise/ros2_ws/build/ydlidar -- -j8 -l8
+Invoking command in '/home/sunrise/ros2_ws/build/ydlidar': /usr/bin/cmake --install /home/sunrise/ros2_ws/build/ydlidar
+Invoked command in '/home/sunrise/ros2_ws/build/ydlidar' returned '0': /usr/bin/cmake --install /home/sunrise/ros2_ws/build/ydlidar
